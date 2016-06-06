@@ -1,0 +1,15 @@
+# Ignore Play! working directory #
+.eclipse
+.cache
+.history
+
+/target
+/logs/
+/dist/
+/.idea
+/*.iml
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
