@@ -4,7 +4,7 @@
 		module="anaraconsultant-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160606232636"
+		publication="20160615181424"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
