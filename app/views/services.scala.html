@@ -1,0 +1,96 @@
+@(message: String)
+@views.html.main("Welcome to Play") {
+
+    <div class="col-sm-12">
+    <ul class="circle-stats">
+    <li class="circle-stat-small">
+    <div class="circle-stat-wrapper">
+    <div>
+    <canvas id="myCanvas" width="230" height="230"></canvas>
+    </div>
+    <p class="percent">1</p>
+    </div>
+    <h3 class="title">Planning</h3>
+    <p class="description">Duis vitae velit blandit, euismod lectus et, semper justo. Nulla egestas.</p>
+    </li>
+    <li class="circle-stat-small">
+    <div class="circle-stat-wrapper">
+    <div>
+     <canvas width="200" height="200"></canvas>
+    </div>
+    <p class="percent">2</p>
+    </div>
+    <h3 class="title">Developing</h3>
+    <p class="description">Phasellus et scelerisque justo, et ultrices sem imperdiet eu. Maecenas lacinia leo.</p>
+    </li>
+    <li class="circle-stat-small">
+    <div class="circle-stat-wrapper">
+    <div>
+    @*<canvas width="200" height="200"></canvas>*@
+    </div>
+    <p class="percent">3</p>
+    </div>
+    <h3 class="title">Testing</h3>
+    <p class="description">Nulla non interdum sem. Vestibulum is varius fermentum auctor praesent.</p>
+    </li>
+    <li class="circle-stat-small">
+    <div class="circle-stat-wrapper">
+    <div>
+    @*<canvas width="200" height="200"></canvas>*@
+    </div>
+    <p class="percent">4</p>
+    </div>
+    <h3 class="title">Delivering</h3>
+    <p class="description">Nunc et dictum dui, ac sodales sapien. Ut tincidunt gravida nisi, sit amet interdum.</p>
+    </li>
+    </ul>
+    </div>
+
+}
+<script>
+       var canvas = document.getElementById("myCanvas");
+        /*var cvs = document.getElementsByTagName("canvas");*/
+         var context = canvas.getContext('2d');
+         var imageObj = new Image();
+
+         imageObj.onload = function() {
+         context.drawImage(imageObj, 30, 60);
+         };
+         imageObj.src = "@routes.Assets.versioned("images/services/procedure/img1.png")";
+
+
+        $(document).ready(function(){
+
+            $('#change').click(function(){
+                var a = $('#takeinput').val();
+                console.log("a:== " +a);
+                $('p').text(a);
+            });
+        });
+       /* var ctx = demo.getContext('2d'),
+                txt = '1';
+        var imageObj = new Image();
+
+        /!*imageObj.onload = function() {
+            context.drawImage(imageObj, 30, 60);
+        };*!/
+
+        drawTextBG(ctx, txt, '32px arial', 30, 30);
+
+        /// expand with color, background etc.
+        function drawTextBG(ctx, txt, font, x, y) {
+
+            ctx.save();
+            ctx.font = font;
+            ctx.textBaseline = 'top';
+            ctx.drawImage(imageObj, 30, 60);
+
+            var width = ctx.measureText(txt).width;
+            ctx.fillRect(x, y, width, parseInt(font, 10));
+
+            ctx.fillStyle = '#000';
+            ctx.fillText(txt, x, y);
+
+            ctx.restore();
+        }*/
+</script>

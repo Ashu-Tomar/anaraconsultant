@@ -10,18 +10,78 @@
 <html lang="en">
     <head>
         @* Here's where we render the page title `String`. *@
-        <meta name="google-site-verification" content="ZH2yvt6jWmNHrjSwkYac1IH3XVxXCaJ5SdGCdcsOq4Q" />
+        <meta name="google-site-verification" content="ZH2yvt6jWmNHrjSwkYac1IH3XVxXCaJ5SdGCdcsOq4Q"/>
         <title>AnaraConsultant</title>
-        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+        <link href="@routes.Assets.versioned("css/bootstrap.min.css")" rel="stylesheet">
+        <link href="@routes.Assets.versioned("css/font-awesome.min.css")" rel="stylesheet">
+        <link href="@routes.Assets.versioned("css/animate.min.css")" rel="stylesheet">
+        <link href="@routes.Assets.versioned("css/prettyPhoto.css")" rel="stylesheet">
+        <link href="@routes.Assets.versioned("css/main.css")" rel="stylesheet">
+        <link href="@routes.Assets.versioned("css/responsive.css")" rel="stylesheet">
+        <link href="@routes.Assets.versioned("css/sweetalert.css")" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
-        <script src="@routes.Assets.versioned("javascripts/hello.js")" type="text/javascript"></script>
+        <link href="@routes.Assets.versioned("css/services.css")" rel="stylesheet">
+        <link href="@routes.Assets.versioned("css/custom.css")" rel="stylesheet">
     </head>
     <body>
         @* And here's where we render the `Html` object containing
          * the page content. *@
+    <header id="header">
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="@routes.Assets.versioned("images/anara-logo.png")" alt="logo" height="65px"></a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="@routes.HomeController.index()">Home</a></li>
+                        <li><a href="@routes.HomeController.about()">About Us</a></li>
+                        <li><a href="@routes.HomeController.services()">Services</a></li>
+                        <li><a href="services.html">Current oppurinities</a></li>
+                        <li><a href="@routes.HomeController.contactus()">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+
+    </header><!--/header-->
 
         @content
 
+        <footer id="footer" class="midnight-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                            &copy; copyright 2011 <a target="_blank" href="www.anaraconsultant.com" title="copyright">AnaraConsultant</a>. All Rights Reserved.
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="pull-right">
+                            <li><a href="@routes.HomeController.index()">Home</a></li>
+                            <li><a href="@routes.HomeController.about()">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/#footer-->
+
+        <script src="@routes.Assets.versioned("js/jquery.js")"></script>
+        <script src="@routes.Assets.versioned("js/bootstrap.min.js")"></script>
+        <script src="@routes.Assets.versioned("js/jquery.prettyPhoto.js")"></script>
+        <script src="@routes.Assets.versioned("js/jquery.isotope.min.js")"></script>
+        <script src="@routes.Assets.versioned("js/main.js")"></script>
+        <script src="@routes.Assets.versioned("js/wow.min.js")"></script>
+        <script src="@routes.Assets.versioned("js/jquery.blockUI.js")"></script>
+        <script src="@routes.Assets.versioned("js/sweetalert.min.js")"></script>
+        <script src="@routes.Assets.versioned("js/custom.js")"></script>
+        <script src="@routes.Assets.versioned("js/jquery.flip.js")"></script>
 
     </body>
 </html>

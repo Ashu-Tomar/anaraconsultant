@@ -1,0 +1,131 @@
+ul.circle-stats {
+    list-style-type: none;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+}
+ul, li {
+    color: rgb(103, 111, 122);
+}
+ul.circle-stats li {
+    text-align: center;
+}
+@media (min-width: 992px) {
+
+    ul.circle-stats li {
+        max-width: 200px;
+    }
+}
+@media (min-width: 768px){
+    ul.circle-stats li {
+        max-width: 150px;
+    }
+}
+ul.circle-stats li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.circle-stats li .circle-stat-wrapper {
+  position: relative;
+}
+ul.circle-stats .title {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+ul.circle-stats .description {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+ul.circle-stats li {
+    text-align: center;
+}
+ul.circle-stats li {
+    max-width: 200px;
+}
+@media (min-width: 768px) {
+    ul.circle-stats li {
+        max-width: 150px;
+    }
+}
+@media (min-width: 992px) {
+    ul.circle-stats li {
+        max-width: 200px;
+    }
+}
+
+ul.circle-stats li .circle-stat-wrapper {
+    position: relative;
+}
+ul.circle-stats li .percent {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    margin-top: -19px;
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(67, 73, 85);
+}
+.newspaper {
+    color:#000;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-width: 80px; /* Chrome, Safari, Opera */
+    -moz-column-width: 80px; /* Firefox */
+    column-width: 80px;
+}
+.newspaper h2 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
+.main{
+    display:inline-block;
+}
+.first{
+    float: left;
+    width: 400px;
+    padding: 0 20px;
+}
+.second{
+    float:left;
+    width:450px;
+}
+.third{
+    float:left;
+    width:450px;
+}
+.vertical-rule{
+    border-right: 1px solid #cccccc;
+}
+h2 {
+    column-span: all;
+}
+/*
+.main {
+    background: #f3f3f3;
+    column-count: 3;
+    column-gap: 40px;
+    padding: 25px 25px;
+    border-radius: 10px;
+    !*column-rule: 1px solid lightblue;*!
+    column-rule-width: 1px;
+    column-rule-style: solid;
+    column-rule-color: #ffffff;
+}
+*/
+
+.reach-us{
+    padding:40px;
+}

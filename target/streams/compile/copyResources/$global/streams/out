@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/ashu/Documents/projects/anaraconsultant/conf/application.conf,/home/ashu/Documents/projects/anaraconsultant/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/ashu/Documents/projects/anaraconsultant/conf/logback.xml,/home/ashu/Documents/projects/anaraconsultant/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/ashu/Documents/projects/anaraconsultant/conf/routes,/home/ashu/Documents/projects/anaraconsultant/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/ashu/Documents/projects/anaraconsultant/conf/mail.conf,/home/ashu/Documents/projects/anaraconsultant/target/scala-2.11/classes/mail.conf)[0m
