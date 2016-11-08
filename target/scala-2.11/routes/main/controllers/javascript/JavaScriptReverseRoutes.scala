@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/ashu/Documents/projects/anaraconsultant/conf/routes
-// @DATE:Thu Sep 29 18:13:46 IST 2016
+// @DATE:Tue Nov 08 13:54:18 IST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -14,7 +14,7 @@ import _root_.controllers.Assets.Asset
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:14
+  // @LINE:15
   class ReverseAsyncController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -22,7 +22,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:14
+    // @LINE:15
     def message: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AsyncController.message",
       """
@@ -52,7 +52,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:10
+    // @LINE:11
     def submitData: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.submitData",
       """
@@ -82,6 +82,16 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:10
+    def pagenotfound: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.pagenotfound",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "pagenotfound"})
+        }
+      """
+    )
+  
     // @LINE:6
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.index",
@@ -94,7 +104,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:17
+  // @LINE:18
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -102,7 +112,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:17
+    // @LINE:18
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -114,7 +124,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:12
+  // @LINE:13
   class ReverseCountController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -122,7 +132,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:12
+    // @LINE:13
     def count: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.CountController.count",
       """

@@ -6,7 +6,8 @@
 GET     /                           controllers.HomeController.index
 GET     /about                      controllers.HomeController.about
 GET     /contactus                  controllers.HomeController.contactus
-GET     /services                     controllers.HomeController.services
+GET     /services                   controllers.HomeController.services
+GET     /pagenotfound               controllers.HomeController.pagenotfound
 POST    /widgets                    controllers.HomeController.submitData
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count

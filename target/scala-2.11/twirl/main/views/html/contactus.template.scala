@@ -43,7 +43,7 @@ Seq[Any](format.raw/*1.19*/("""
     <section id="contact-info" class="contact-sub-wrapper">
       <div class="row">
         <div class="center reach-us">
-          <h2>How to Reach Us?</h2>
+          <h2>Talk To Us?</h2>
           <p class="lead">Whether you have specific needs or just want to say hello, feel free to send us a message or give us a call.
             We work with our partners across the globe and would definitely have a time overlap with you.</p>
         </div>
@@ -84,44 +84,54 @@ Seq[Any](format.raw/*1.19*/("""
 
         </div>
 
-        <div class="col-md-1 col-sm-1" style="height: 670px;">
+        <div class="col-md-1 col-sm-1" style="height:555px;">
             <div class="divider"></div>
         </div>
-        <div class="col-md-3 col-sm-3 location">
+        """),format.raw/*85.17*/("""
+        """),format.raw/*86.9*/("""<div class="col-md-3 col-sm-3 location">
           <h2>ions</h2>
-          <div class="sidebar-block">
-            <div class="sidebar-icon-item">
-             Knoldus House <br> 10/19, Ground Floor<br> West Patel
-              Nagar, New Delhi - 110008 <br> India
-            </div>
-          </div>
-          <div class="sidebar-block">
-            <div class="sidebar-icon-item">
-              Ram Indukuri<br>
-              Knoldus Inc<br>
-              56 N, Averry Ct  <br> Palatine(Chicago), IL - 60067<br>USA
-              <i class="icon-phone"></i> +(1) 312-890-2448
-            </div>
-            <div class="sidebar-icon-item">
-              <i class="icon-envelope-alt"></i> ram.com
-            </div>
-          </div>
+          <p class="adr clearfix">
+            <i class="fa fa-map-marker pull-left"></i>
+            <span class="adr-group pull-left">
+              <span class="street-address">A-4, PS Arcade,</span><br>
+              <span class="region">Bhoja Market, Sector-27.</span><br>
+              <span class="postal-code">Noida-201301.</span><br>
+              <span class="country-name"><b >India</b></span>
+            </span>
+          </p>
+          <p class="tel"><i class="fa fa-phone"></i>+91-956038636</p>
+          <p class="email"><i class="fa fa-envelope"></i><a href="#">contact@anaraconsultant.com</a></p>
+
+          <p class="adr clearfix" style="margin-top:50px">
+            <i class="fa fa-map-marker pull-left"></i>
+            <span class="adr-group pull-left">
+              <span class="street-address">P.O Box-3214,</span><br>
+              <span class="region">Ruwi 112,</span><br>
+              <span class="postal-code">Muscat</span><br>
+              <span class="country-name"><b>Sultanate of Oman</b></span>
+            </span>
+          </p>
+          <p class="tel"><i class="fa fa-phone"></i>+96894401731</p>
+          <p class="email"><i class="fa fa-envelope"></i><a href="#">info@anaraconsultant.com</a></p>
+
         </div>
       </div>
     </section>
   </div>
   </div>
-  <section class="wrapper">
+  <section id="contact-info" style="padding:40px 0px 0px; background: #f8f8f8">
+      <div class="center">
+        <h2>How To Reach Us?</h2>
+    </div>
+    </section>
+  <section class="wrapper" style="margin:0px; padding:0px">
       <div class="gmap-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 text-center">
+          <div class="row" style="margin-right:3px; margin-left:1px">
+
               <div class="gmap">
-                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=JoomShaper,+Dhaka,+Dhaka+Division,+Bangladesh&amp;aq=0&amp;oq=joomshaper&amp;sll=37.0625,-95.677068&amp;sspn=42.766543,80.332031&amp;ie=UTF8&amp;hq=JoomShaper,&amp;hnear=Dhaka,+Dhaka+Division,+Bangladesh&amp;ll=23.73854,90.385504&amp;spn=0.001515,0.002452&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=1073661719450182870&amp;output=embed"></iframe>
+                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=AnaraConsultant,+PSArcade,+sector27+noida,+Uttar pradesh&amp;aq=0&amp;oq=Anaraconsultant&amp;sll=37.0625,-95.677068&amp;sspn=42.766543,80.332031&amp;ie=utf8&amp;hq=Anaraconsultant,&amp;hnear=sector27,+Noida,+Uttar Pradesh,+India&amp;ll=28.5751,77.3281&amp;spn=0.001515,0.002452&amp;t=m&amp;z=14&amp;iwloc=a&amp;cid=15820373574503516669&amp;output=embed"></iframe>
               </div>
-            </div>
           </div>
-        </div>
       </div>
   </section>
 """)))}))
@@ -144,11 +154,11 @@ Seq[Any](format.raw/*1.19*/("""
 object contactus extends contactus_Scope0.contactus
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 27 16:22:58 IST 2016
+                  DATE: Tue Nov 08 13:18:13 IST 2016
                   SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/contactus.scala.html
-                  HASH: 540b27fd733ec1dafda360f86251633ba20fb1a9
-                  MATRIX: 535->1|647->18|674->20|686->25|723->54|762->56|791->59|899->141|913->147|980->194
-                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|28->4|28->4|28->4
+                  HASH: e001f248a883f355f889fad9d51f720540304152
+                  MATRIX: 535->1|647->18|674->20|686->25|723->54|762->56|791->59|899->141|913->147|980->194|3517->3568|3553->3577
+                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|28->4|28->4|28->4|90->85|91->86
                   -- GENERATED --
               */
           

@@ -140,24 +140,18 @@ Seq[Any](format.raw/*1.19*/("""
     </div>
     <div class="parallax-team parallaxBg" style="background-position: 50% 117px ;">
         <div class="container content">
-            <div class="title-box-v2">
-                <h2>Build Your <span class="color-green">Own</span> Talents</h2>
-                <p>Aside from being high performance... we're also the nicest people you'll ever meet.
-                    Our mission is to build a bridge between employee and employer. 
-                    We achieved this status by the dedicated accomplishment of a highly motivated,
-                    professional and experience team who are highly dedicated.</p>
-            </div>
+            """),format.raw/*126.21*/("""
 
-            <div class="row">
+            """),format.raw/*128.13*/("""<div class="row">
                     <!-- Team v2 -->
                 <div class="col-md-3 col-sm-6">
                     <div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center flip" style="min-height: 436px ;">
                         <div class="front">
                             <div class="box1 box-default" style="min-height: 436px ;">
                                 <span class="box-icon-title">
-                                    <img class="img-responsive" src=""""),_display_(/*134.71*/routes/*134.77*/.Assets.versioned("images/about/team/rahul.jpg")),format.raw/*134.125*/("""" alt="">
+                                    <img class="img-responsive" src=""""),_display_(/*135.71*/routes/*135.77*/.Assets.versioned("images/about/team/rahul.jpg")),format.raw/*135.125*/("""" alt="">
                                     <h2>Rahul Chaudhary</h2>
-                                    <small>Co-Founder</small>
+                                    <p>Overseas Manager</p>
                                 </span>
                             </div>
                         </div>
@@ -165,14 +159,14 @@ Seq[Any](format.raw/*1.19*/("""
                         <div class="back">
                             <div class="box2 box-default" style="min-height: 436px ;">
                                 <h4 class="nomargin">Rahul Chaudhary</h4>
-                                """),format.raw/*144.62*/("""
-                                """),format.raw/*145.33*/("""<hr>
+                                """),format.raw/*145.62*/("""
+                                """),format.raw/*146.33*/("""<hr>
                                 <p>Enthusiastic & Passionate about recruitment, Result Oriented, Perseverant</p>
                                 <p>Experience in sourcing using: internet channels, through Agents, employee referrals,
                                    job boards, cold calling, and other innovative search techniques.</p>
-                                """),format.raw/*151.120*/("""
-                                """),format.raw/*152.174*/("""
-                                """),format.raw/*153.33*/("""<hr>
+                                """),format.raw/*152.120*/("""
+                                """),format.raw/*153.174*/("""
+                                """),format.raw/*154.33*/("""<hr>
                                 <ul class="list-inline team-social">
                                     <li>
                                         <a data-placement="top" data-toggle="tooltip" class="fb tooltips" data-original-title="Facebook" href="#">
@@ -200,9 +194,9 @@ Seq[Any](format.raw/*1.19*/("""
                             <div class="front">
                                 <div class="box1 box-default" style="min-height: 436px ;">
                                     <span class="box-icon-title">
-                                        <img class="img-responsive" src=""""),_display_(/*181.75*/routes/*181.81*/.Assets.versioned("images/about/team/nitin.jpg")),format.raw/*181.129*/("""" alt="">
+                                        <img class="img-responsive" src=""""),_display_(/*182.75*/routes/*182.81*/.Assets.versioned("images/about/team/nitin.jpg")),format.raw/*182.129*/("""" alt="">
                                         <h2>Nitin Tyagi</h2>
-                                        <small>Director</small>
+                                        <p>Overseas Manager</p>
                                     </span>
                                 </div>
                             </div>
@@ -210,12 +204,12 @@ Seq[Any](format.raw/*1.19*/("""
                             <div class="back">
                                 <div class="box2 box-default" style="min-height: 436px ;">
                                     <h4 class="nomargin">Nitin Tyagi</h4>
-                                    """),format.raw/*191.66*/("""
-                                    """),format.raw/*192.37*/("""<hr>
+                                    """),format.raw/*192.66*/("""
+                                    """),format.raw/*193.37*/("""<hr>
                                      <p>Contact me on following</p>
-                                    """),format.raw/*196.120*/("""
-                                    """),format.raw/*197.178*/("""
-                                    """),format.raw/*198.37*/("""<hr>
+                                    """),format.raw/*197.120*/("""
+                                    """),format.raw/*198.178*/("""
+                                    """),format.raw/*199.37*/("""<hr>
                                     <ul class="list-inline team-social">
                                         <li>
                                             <a data-placement="top" data-toggle="tooltip" class="fb tooltips" data-original-title="Facebook" href="#">
@@ -243,9 +237,9 @@ Seq[Any](format.raw/*1.19*/("""
                                 <div class="front">
                                     <div class="box1 box-default" style="min-height: 436px ;">
                                         <span class="box-icon-title">
-                                            <img class="img-responsive" src=""""),_display_(/*226.79*/routes/*226.85*/.Assets.versioned("images/about/team/chetan.jpg")),format.raw/*226.134*/("""" alt="">
+                                            <img class="img-responsive" src=""""),_display_(/*227.79*/routes/*227.85*/.Assets.versioned("images/about/team/chetan.jpg")),format.raw/*227.134*/("""" alt="">
                                             <h2>Chetan Sharma</h2>
-                                            <small>HR Manager</small>
+                                            <p>HR Manager</p>
                                         </span>
                                     </div>
                                 </div>
@@ -253,12 +247,12 @@ Seq[Any](format.raw/*1.19*/("""
                                 <div class="back">
                                     <div class="box2 box-default" style="min-height: 436px ;">
                                         <h4 class="nomargin">Chetan Sharma</h4>
-                                        """),format.raw/*236.70*/("""
-                                        """),format.raw/*237.41*/("""<hr>
+                                        """),format.raw/*237.70*/("""
+                                        """),format.raw/*238.41*/("""<hr>
                                          <p>Contact me on following</p>
-                                        """),format.raw/*241.124*/("""
-                                        """),format.raw/*242.182*/("""
-                                        """),format.raw/*243.41*/("""<hr>
+                                        """),format.raw/*242.124*/("""
+                                        """),format.raw/*243.182*/("""
+                                        """),format.raw/*244.41*/("""<hr>
                                         <ul class="list-inline team-social">
                                             <li>
                                                 <a data-placement="top" data-toggle="tooltip" class="fb tooltips" data-original-title="Facebook" href="#">
@@ -287,9 +281,9 @@ Seq[Any](format.raw/*1.19*/("""
                                     <div class="front">
                                         <div class="box1 box-default" style="min-height: 436px ;">
                                             <span class="box-icon-title">
-                                                <img class="img-responsive" src=""""),_display_(/*272.83*/routes/*272.89*/.Assets.versioned("images/about/team/avinash.jpg")),format.raw/*272.139*/("""" alt="">
+                                                <img class="img-responsive" src=""""),_display_(/*273.83*/routes/*273.89*/.Assets.versioned("images/about/team/avinash.jpg")),format.raw/*273.139*/("""" alt="">
                                                 <h2>Avinash</h2>
-                                                <small>Accountant</small>
+                                                <p>HR Assistant</p>
                                             </span>
                                         </div>
                                     </div>
@@ -297,13 +291,13 @@ Seq[Any](format.raw/*1.19*/("""
                                     <div class="back">
                                         <div class="box2 box-default" style="min-height: 436px ;">
                                             <h4 class="nomargin">Avinash</h4>
-                                            """),format.raw/*282.74*/("""
-                                            """),format.raw/*283.45*/("""<hr>
+                                            """),format.raw/*283.74*/("""
+                                            """),format.raw/*284.45*/("""<hr>
                                             <p>Contact me on following</p>
 
-                                            """),format.raw/*288.128*/("""
-                                            """),format.raw/*289.186*/("""
-                                            """),format.raw/*290.45*/("""<hr>
+                                            """),format.raw/*289.128*/("""
+                                            """),format.raw/*290.186*/("""
+                                            """),format.raw/*291.45*/("""<hr>
                                             <ul class="list-inline team-social">
                                                 <li>
                                                     <a data-placement="top" data-toggle="tooltip" class="fb tooltips" data-original-title="Facebook" href="#">
@@ -325,21 +319,106 @@ Seq[Any](format.raw/*1.19*/("""
                                 </div>
                             </div>
                     <!-- End Team v2 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center flip" style="min-height: 436px ;">
+                        <div class="front">
+                            <div class="box1 box-default" style="min-height: 436px ;">
+                                <span class="box-icon-title">
+                                    <img class="img-responsive" src=""""),_display_(/*318.71*/routes/*318.77*/.Assets.versioned("images/about/team/avinash.jpg")),format.raw/*318.127*/("""" alt="">
+                                    <h2>Manoj</h2>
+                                    <p>Accountant</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="back">
+                            <div class="box2 box-default" style="min-height: 436px ;">
+                                <h4 class="nomargin">Manoj</h4>
+                                """),format.raw/*328.62*/("""
+                                """),format.raw/*329.33*/("""<hr>
+                                <p>Contact me on following</p>
+
+                                """),format.raw/*334.116*/("""
+                                """),format.raw/*335.174*/("""
+                                """),format.raw/*336.33*/("""<hr>
+                                <ul class="list-inline team-social">
+                                    <li>
+                                        <a data-placement="top" data-toggle="tooltip" class="fb tooltips" data-original-title="Facebook" href="#">
+                                            <i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a data-placement="top" data-toggle="tooltip" class="tw tooltips" data-original-title="Twitter" href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-placement="top" data-toggle="tooltip" class="gp tooltips" data-original-title="Google plus" href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end team2-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center flip" style="min-height: 436px ;">
+                        <div class="front">
+                            <div class="box1 box-default" style="min-height: 436px ;">
+                                <span class="box-icon-title">
+                                    <img class="img-responsive" src=""""),_display_(/*363.71*/routes/*363.77*/.Assets.versioned("images/about/team/ateeb.jpg")),format.raw/*363.125*/("""" alt="">
+                                    <h2>Ateeb</h2>
+                                    <p>Oversaes Manager</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="back">
+                            <div class="box2 box-default" style="min-height: 436px ;">
+                                <h4 class="nomargin">Ateeb</h4>
+                                """),format.raw/*373.62*/("""
+                                """),format.raw/*374.33*/("""<hr>
+                                <p>Contact me on following</p>
+
+                                """),format.raw/*379.116*/("""
+                                """),format.raw/*380.174*/("""
+                                """),format.raw/*381.33*/("""<hr>
+                                <ul class="list-inline team-social">
+                                    <li>
+                                        <a data-placement="top" data-toggle="tooltip" class="fb tooltips" data-original-title="Facebook" href="#">
+                                            <i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a data-placement="top" data-toggle="tooltip" class="tw tooltips" data-original-title="Twitter" href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-placement="top" data-toggle="tooltip" class="gp tooltips" data-original-title="Google plus" href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-""")))}),format.raw/*315.2*/("""
-"""),format.raw/*316.1*/("""<script>
+""")))}),format.raw/*405.2*/("""
+"""),format.raw/*406.1*/("""<script>
 
         //$(".box-flip").flip();
-        $(".box-flip").flip("""),format.raw/*319.29*/("""{"""),format.raw/*319.30*/("""
-            """),format.raw/*320.13*/("""trigger: 'hover',
+        $(".box-flip").flip("""),format.raw/*409.29*/("""{"""),format.raw/*409.30*/("""
+            """),format.raw/*410.13*/("""trigger: 'hover',
             reverse: true
-        """),format.raw/*322.9*/("""}"""),format.raw/*322.10*/(""");
+        """),format.raw/*412.9*/("""}"""),format.raw/*412.10*/(""");
 
-        /* function flipcardout()"""),format.raw/*324.34*/("""{"""),format.raw/*324.35*/("""
-         """),format.raw/*325.10*/("""$(".box-flip").flip(false);
-         """),format.raw/*326.10*/("""}"""),format.raw/*326.11*/("""*/
+        /* function flipcardout()"""),format.raw/*414.34*/("""{"""),format.raw/*414.35*/("""
+         """),format.raw/*415.10*/("""$(".box-flip").flip(false);
+         """),format.raw/*416.10*/("""}"""),format.raw/*416.11*/("""*/
 </script>"""))
       }
     }
@@ -360,11 +439,11 @@ Seq[Any](format.raw/*1.19*/("""
 object about extends about_Scope0.about
               /*
                   -- GENERATED --
-                  DATE: Sat Nov 05 19:20:42 IST 2016
+                  DATE: Sun Nov 06 22:01:00 IST 2016
                   SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/about.scala.html
-                  HASH: cc17c20122bce5481b416070d3d145a7b4017dfd
-                  MATRIX: 527->1|639->18|666->20|678->25|715->54|754->56|785->61|857->107|871->113|937->159|6237->5432|6252->5438|6319->5483|8382->7518|8398->7524|8469->7572|8974->8077|9036->8110|9441->8798|9504->8972|9566->9005|11405->10816|11421->10822|11492->10870|12023->11401|12089->11438|12228->11860|12295->12038|12361->12075|14308->13994|14324->14000|14396->14049|14969->14622|15039->14663|15186->15101|15257->15283|15327->15324|17371->17340|17387->17346|17460->17396|18057->17993|18131->18038|18286->18492|18361->18678|18435->18723|20034->20291|20063->20292|20163->20363|20193->20364|20235->20377|20315->20429|20345->20430|20411->20467|20441->20468|20480->20478|20546->20515|20576->20516
-                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|28->4|28->4|28->4|120->96|120->96|120->96|158->134|158->134|158->134|168->144|169->145|173->151|174->152|175->153|203->181|203->181|203->181|213->191|214->192|216->196|217->197|218->198|246->226|246->226|246->226|256->236|257->237|259->241|260->242|261->243|290->272|290->272|290->272|300->282|301->283|304->288|305->289|306->290|331->315|332->316|335->319|335->319|336->320|338->322|338->322|340->324|340->324|341->325|342->326|342->326
+                  HASH: 0db87b34d2085682cc24b6736cd5029e21418a8d
+                  MATRIX: 527->1|639->18|666->20|678->25|715->54|754->56|785->61|857->107|871->113|937->159|6237->5432|6252->5438|6319->5483|7354->6986|7397->7000|7944->7519|7960->7525|8031->7573|8534->8076|8596->8109|9001->8797|9064->8971|9126->9004|10965->10815|10981->10821|11052->10869|11583->11400|11649->11437|11788->11859|11855->12037|11921->12074|13868->13993|13884->13999|13956->14048|14521->14613|14591->14654|14738->15092|14809->15274|14879->15315|16923->17331|16939->17337|17012->17387|17603->17978|17677->18023|17832->18477|17907->18663|17981->18708|19995->20694|20011->20700|20084->20750|20561->21227|20623->21260|20754->21666|20817->21840|20879->21873|22645->23611|22661->23617|22732->23665|23215->24148|23277->24181|23408->24587|23471->24761|23533->24794|24851->26081|24880->26082|24980->26153|25010->26154|25052->26167|25132->26219|25162->26220|25228->26257|25258->26258|25297->26268|25363->26305|25393->26306
+                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|28->4|28->4|28->4|120->96|120->96|120->96|143->126|145->128|152->135|152->135|152->135|162->145|163->146|167->152|168->153|169->154|197->182|197->182|197->182|207->192|208->193|210->197|211->198|212->199|240->227|240->227|240->227|250->237|251->238|253->242|254->243|255->244|284->273|284->273|284->273|294->283|295->284|298->289|299->290|300->291|327->318|327->318|327->318|337->328|338->329|341->334|342->335|343->336|370->363|370->363|370->363|380->373|381->374|384->379|385->380|386->381|410->405|411->406|414->409|414->409|415->410|417->412|417->412|419->414|419->414|420->415|421->416|421->416
                   -- GENERATED --
               */
           

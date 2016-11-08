@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/ashu/Documents/projects/anaraconsultant/conf/routes
-// @DATE:Thu Sep 29 18:13:46 IST 2016
+// @DATE:Tue Nov 08 13:54:18 IST 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -12,14 +12,14 @@ import _root_.controllers.Assets.Asset
 // @LINE:6
 package controllers {
 
-  // @LINE:14
+  // @LINE:15
   class ReverseAsyncController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:14
+    // @LINE:15
     def message(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "message")
@@ -40,7 +40,7 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "services")
     }
   
-    // @LINE:10
+    // @LINE:11
     def submitData(): Call = {
       import ReverseRouteContext.empty
       Call("POST", _prefix + { _defaultPrefix } + "widgets")
@@ -58,6 +58,12 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "about")
     }
   
+    // @LINE:10
+    def pagenotfound(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "pagenotfound")
+    }
+  
     // @LINE:6
     def index(): Call = {
       import ReverseRouteContext.empty
@@ -66,14 +72,14 @@ package controllers {
   
   }
 
-  // @LINE:17
+  // @LINE:18
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:17
+    // @LINE:18
     def versioned(file:Asset): Call = {
       implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[Asset]].unbind("file", file))
@@ -81,14 +87,14 @@ package controllers {
   
   }
 
-  // @LINE:12
+  // @LINE:13
   class ReverseCountController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:12
+    // @LINE:13
     def count(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "count")

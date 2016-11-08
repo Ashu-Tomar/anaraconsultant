@@ -47,12 +47,14 @@ class HomeController @Inject()(mailerClient: MailerClient) extends Controller {
   def services = Action {
     Ok(views.html.services(""))
   }
-
+  def pagenotfound = Action {
+    Ok(views.html.pagenotfound(""))
+  }
   def submitData = Action { implicit request =>
     Application.userForm.bindFromRequest.fold(
       formWithErrors => {
         // binding failure, you retrieve the form containing errors:
-        BadRequest("hahahahah fattt gya na jakr dekho " + formWithErrors)
+        BadRequest("sorry has some errors in forms " + formWithErrors)
       },
       userData => {
         /* binding success, you get the actual value. */

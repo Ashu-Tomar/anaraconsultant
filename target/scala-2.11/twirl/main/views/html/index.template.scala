@@ -40,23 +40,24 @@ Seq[Any](format.raw/*5.55*/("""
                 <div class="carousel-inner">
                     <div class="item active slide-first">
                         <div class="container">
-
                             <div class="row slide-margin">
-                                <div class="col-xs-offset-1 col-md-offset-3 col-sm-6">
-                                    <div class="carousel-content">
-                                        <h1 class="animation animated-item-1">
-                                            ANARA  """),format.raw/*25.126*/("""</h1>
-                                        <h2 class="animation animated-item-2">
-                                            Hire the right candidate or Pick your dream job</h2>
-                                        """),format.raw/*28.138*/("""
-                                        """),format.raw/*29.41*/("""<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                                            Sign up
-                                        </button>
-
+                                <"""),format.raw/*52.41*/("""
+                                    """),format.raw/*53.37*/("""<div class="col-sm-6">
+                                        <div class="carousel-content">
+                                            <h1 class="animation animated-item-1">ANARA </h1>
+                                            <h2 class="animation animated-item-2">Hire the right candidate or Pick your dream job</h2>
+                                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                                Sign up
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
-                                """),format.raw/*39.41*/("""
-                            """),format.raw/*40.29*/("""</div>
+
+                                    <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                        <div class="slider-img">
+                                            <img src=""""),_display_(/*65.56*/routes/*65.62*/.Assets.versioned("images/slider/img1.png")),format.raw/*65.105*/("""" class="img-responsive">
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,7 +67,7 @@ Seq[Any](format.raw/*5.55*/("""
             <div class="container">
                 <div class="center wow fadeInDown">
                     <div class="col-md-4 col-sm-12">
-                        <img src=""""),_display_(/*50.36*/routes/*50.42*/.Assets.versioned("images/Anara_L.png")),format.raw/*50.81*/("""" class="img-responsive">
+                        <img class="img-responsive" src=""""),_display_(/*78.59*/routes/*78.65*/.Assets.versioned("images/Anara_L.png")),format.raw/*78.104*/("""">
                     </div>
                     <div class="col-md-8 col-sm-12">
                         <h2>About <span style="color:#f3760a ;">AnaraConsultant</span></h2>
@@ -105,7 +106,7 @@ Seq[Any](format.raw/*5.55*/("""
                     <div class="features">
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <div class="feature-wrap">
-                                <i class="fa fa-cogs"></i>
+                                <i class="fa fa-cogs feature-wrap-wdt-hover"></i>
                                 <h2>Civil, Mechanical & Electrical Engg</h2>
                                 <h3> Mechanical, Civil, Electrical</h3>
                             </div>
@@ -113,7 +114,7 @@ Seq[Any](format.raw/*5.55*/("""
 
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <div class="feature-wrap">
-                                <i class="fa fa-home"></i>
+                                <i class="fa fa-home feature-wrap-wdt-hover"></i>
                                 <h2>Hospitality Industry</h2>
                                 <h3>Hotels, Motels, Resorts, Restaurants, Cruises</h3>
                             </div>
@@ -121,28 +122,28 @@ Seq[Any](format.raw/*5.55*/("""
 
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <div class="feature-wrap">
-                                <i class="fa fa-medkit"></i>
+                                <i class="fa fa-medkit feature-wrap-wdt-hover"></i>
                                 <h2>Medical</h2>
                                 <h3>Hospitals, Nursing Homes, Old Age Homes</h3>
                             </div>
                         </div><!--/.col-md-4-->
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <div class="feature-wrap">
-                                <i class="fa fa-dropbox "></i>
+                                <i class="fa fa-dropbox feature-wrap-wdt-hover"></i>
                                 <h2>Information Technology</h2>
                                 <h3>Hardware, Software, Telecommunications</h3>
                             </div>
                         </div><!--/.col-md-4-->
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <div class="feature-wrap">
-                                <i class="fa fa-tint"></i>
+                                <i class="fa fa-tint feature-wrap-wdt-hover"></i>
                                 <h2>Oil & Gas Field Operation Personnel</h2>
                                 <h3>Mechanical, Civil, Electrical, Electro-Mechanical, Pipeline</h3>
                             </div>
                         </div><!--/.col-md-4-->
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                             <div class="feature-wrap">
-                                <i class="fa fa-plane"></i>
+                                <i class="fa fa-plane feature-wrap-wdt-hover"></i>
                                 <h2>Aeronautical Engineers & General</h2>
                                 <h3>Administration, Production, Maintenance, Technical</h3>
                             </div><!--/.col-md-4-->
@@ -157,32 +158,32 @@ Seq[Any](format.raw/*5.55*/("""
                 <ul>
                     <li class="client-logo">
                         <a class="change-image" href="http://www.salemgroups.com/" target="_blank">
-                            <img alt=" salem" src=""""),_display_(/*141.53*/routes/*141.59*/.Assets.versioned("images/partners/salem.png")),format.raw/*141.105*/("""" height="105px">
+                            <img class="img-responsive asrain-image" alt=" salem" src=""""),_display_(/*169.89*/routes/*169.95*/.Assets.versioned("images/partners/salem.png")),format.raw/*169.141*/("""" height="105px">
                         </a>
                     </li>
                     <li class="client-logo">
                         <a class="change-image" href="http://galfar.com/" target="_blank">
-                            <img alt="galfar" src=""""),_display_(/*146.53*/routes/*146.59*/.Assets.versioned("images/partners/galfar-logo.png")),format.raw/*146.111*/("""" height="105px">
+                            <img class="img-responsive" alt="galfar" src=""""),_display_(/*174.76*/routes/*174.82*/.Assets.versioned("images/partners/galfar-logo.png")),format.raw/*174.134*/("""" height="105px">
                         </a>
                     </li>
                     <li class="client-logo">
                         <a class="change-image" href="http://assarain.com/" target="_blank">
-                            <img alt="assrain" src=""""),_display_(/*151.54*/routes/*151.60*/.Assets.versioned("images/partners/assarain-logo.gif")),format.raw/*151.114*/("""" height="105px">
+                            <img class="img-responsive asrain-image" alt="assrain" src=""""),_display_(/*179.90*/routes/*179.96*/.Assets.versioned("images/partners/assarain-logo.gif")),format.raw/*179.150*/("""" height="105px">
                         </a>
                     </li>
                     <li class="client-logo">
                         <a class="change-image" href="http://algharbiagroup.com/" target="_blank">
-                            <img alt="partners" src=""""),_display_(/*156.55*/routes/*156.61*/.Assets.versioned("images/partners/gharbia.jpg")),format.raw/*156.109*/("""" height="105px">
+                            <img class="img-responsive gharbia" alt="partners" src=""""),_display_(/*184.86*/routes/*184.92*/.Assets.versioned("images/partners/gharbia.jpg")),format.raw/*184.140*/("""" height="105px">
                         </a>
                     </li>
                     <li class="client-logo">
                         <a class="change-image" href="http://www.ohigroup.com/newsite/" target="_blank">
-                            <img class="ohi-image" alt="" src=""""),_display_(/*161.65*/routes/*161.71*/.Assets.versioned("images/partners/ohi.jpg")),format.raw/*161.115*/("""" height="105px">
+                            <img class="ohi-image img-responsive" alt="" src=""""),_display_(/*189.80*/routes/*189.86*/.Assets.versioned("images/partners/ohi.jpg")),format.raw/*189.130*/("""" height="105px">
                         </a>
                     </li>
                     <li class="client-logo">
                         <a class="change-image" href="http://omanshapoorji.com/" target="_blank">
-                            <img class="some-image" alt="starbucks" src=""""),_display_(/*166.75*/routes/*166.81*/.Assets.versioned("images/partners/osco.png")),format.raw/*166.126*/("""" height="105px">
+                            <img class="some-image img-responsive" alt="starbucks" src=""""),_display_(/*194.90*/routes/*194.96*/.Assets.versioned("images/partners/osco.png")),format.raw/*194.141*/("""" height="105px">
                         </a>
                     </li>
                 </ul>
@@ -190,16 +191,19 @@ Seq[Any](format.raw/*5.55*/("""
         </div>
         <section id="conatcat-info">
             <div class="container">
+                <h3>We recruit and outsource for different location such as <b>
+                    Iraq, Jordan, Saudi Arabia, Dubai, Kuwait, U.A.E, Oman, Libya, Qatar, Bahrain, other
+                    Middle East and Gulf countries</b></h3>
                     <div class="section-content section-alter knoldus-section-content" style="padding:0">
                         <ul class="place-list">
-                            <li><a href="#"><img src=""""),_display_(/*176.56*/routes/*176.62*/.Assets.versioned("images/flags/india.gif")),format.raw/*176.105*/(""""></a></li>
-                            <li><a href="#"><img src=""""),_display_(/*177.56*/routes/*177.62*/.Assets.versioned("images/flags/bahrain.gif")),format.raw/*177.107*/(""""></a></li>
-                            <li><a href="#"><img src=""""),_display_(/*178.56*/routes/*178.62*/.Assets.versioned("images/flags/dubai.gif")),format.raw/*178.105*/(""""></a></li>
-                            <li><a href="#"><img src=""""),_display_(/*179.56*/routes/*179.62*/.Assets.versioned("images/flags/oman.gif")),format.raw/*179.104*/(""""></a></li>
-                            <li><a href="#"><img src=""""),_display_(/*180.56*/routes/*180.62*/.Assets.versioned("images/flags/qatar.gif")),format.raw/*180.105*/(""""></a></li>
-                            <li><a href="#"><img src=""""),_display_(/*181.56*/routes/*181.62*/.Assets.versioned("images/flags/libiya.gif")),format.raw/*181.106*/(""""></a></li>
-                            <li><a href="#"><img src=""""),_display_(/*182.56*/routes/*182.62*/.Assets.versioned("images/flags/jordan.gif")),format.raw/*182.106*/(""""></a></li>
-                            <li><a href="#"><img src=""""),_display_(/*183.56*/routes/*183.62*/.Assets.versioned("images/flags/saudi.gif")),format.raw/*183.105*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*207.56*/routes/*207.62*/.Assets.versioned("images/flags/india.gif")),format.raw/*207.105*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*208.56*/routes/*208.62*/.Assets.versioned("images/flags/dubai.gif")),format.raw/*208.105*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*209.56*/routes/*209.62*/.Assets.versioned("images/flags/oman.gif")),format.raw/*209.104*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*210.56*/routes/*210.62*/.Assets.versioned("images/flags/qatar.gif")),format.raw/*210.105*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*211.56*/routes/*211.62*/.Assets.versioned("images/flags/libiya.gif")),format.raw/*211.106*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*212.56*/routes/*212.62*/.Assets.versioned("images/flags/jordan.gif")),format.raw/*212.106*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*213.56*/routes/*213.62*/.Assets.versioned("images/flags/bahrain.gif")),format.raw/*213.107*/(""""></a></li>
+                            <li><a href="#"><img src=""""),_display_(/*214.56*/routes/*214.62*/.Assets.versioned("images/flags/saudi.gif")),format.raw/*214.105*/(""""></a></li>
                         </ul>
                     </div>
             </div><!--/.container-->
@@ -224,7 +228,7 @@ Seq[Any](format.raw/*5.55*/("""
                             </div>
 
                             <div class="form-group clearfix">
-                                <input type="text" id="name" name="phone" placeholder=" Phone Number *" pattern="."""),format.raw/*208.115*/("""{"""),format.raw/*208.116*/("""10,"""),format.raw/*208.119*/("""}"""),format.raw/*208.120*/("""" required title="10 characters minimum" maxlength="10">
+                                <input type="text" id="name" name="phone" placeholder=" Phone Number *" pattern="."""),format.raw/*239.115*/("""{"""),format.raw/*239.116*/("""10,"""),format.raw/*239.119*/("""}"""),format.raw/*239.120*/("""" required title="10 characters minimum" maxlength="10">
                             </div>
 
                             <div class="form-group clearfix">
@@ -248,7 +252,7 @@ Seq[Any](format.raw/*5.55*/("""
             </div>
         </div>
 
-    """)))}),format.raw/*232.6*/("""
+    """)))}),format.raw/*263.6*/("""
 """))
       }
     }
@@ -272,11 +276,11 @@ Seq[Any](format.raw/*5.55*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sat Nov 05 19:56:43 IST 2016
+                  DATE: Tue Nov 08 13:39:17 IST 2016
                   SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/index.scala.html
-                  HASH: 8bba7cdf33ca358ef7c039364de2de64944e2023
-                  MATRIX: 636->92|784->145|816->173|847->179|878->202|917->204|953->214|1131->365|1163->388|1203->390|1256->415|1361->489|1406->506|1938->1083|2189->1402|2258->1443|2600->2072|2657->2101|3022->2439|3037->2445|3097->2484|8642->8001|8658->8007|8727->8053|9016->8314|9032->8320|9107->8372|9399->8636|9415->8642|9492->8696|9791->8967|9807->8973|9878->9021|10193->9308|10209->9314|10276->9358|10594->9648|10610->9654|10678->9699|11117->10110|11133->10116|11199->10159|11294->10226|11310->10232|11378->10277|11473->10344|11489->10350|11555->10393|11650->10460|11666->10466|11731->10508|11826->10575|11842->10581|11908->10624|12003->10691|12019->10697|12086->10741|12181->10808|12197->10814|12264->10858|12359->10925|12375->10931|12441->10974|13963->12466|13994->12467|14027->12470|14058->12471|15128->13510
-                  LINES: 23->5|28->5|29->6|30->7|30->7|30->7|32->9|35->12|35->12|35->12|36->13|37->14|38->15|48->25|51->28|52->29|58->39|59->40|69->50|69->50|69->50|160->141|160->141|160->141|165->146|165->146|165->146|170->151|170->151|170->151|175->156|175->156|175->156|180->161|180->161|180->161|185->166|185->166|185->166|195->176|195->176|195->176|196->177|196->177|196->177|197->178|197->178|197->178|198->179|198->179|198->179|199->180|199->180|199->180|200->181|200->181|200->181|201->182|201->182|201->182|202->183|202->183|202->183|227->208|227->208|227->208|227->208|251->232
+                  HASH: 1bd14b278f1faddd273f851f591358751d218f82
+                  MATRIX: 636->92|784->145|816->173|847->179|878->202|917->204|953->214|1131->365|1163->388|1203->390|1256->415|1361->489|1406->506|1685->3102|1750->3139|2657->4019|2672->4025|2737->4068|3269->4573|3284->4579|3345->4618|9040->10285|9056->10291|9125->10337|9437->10621|9453->10627|9528->10679|9856->10979|9872->10985|9949->11039|10279->11341|10295->11347|10366->11395|10696->11697|10712->11703|10779->11747|11112->12052|11128->12058|11196->12103|11880->12759|11896->12765|11962->12808|12057->12875|12073->12881|12139->12924|12234->12991|12250->12997|12315->13039|12410->13106|12426->13112|12492->13155|12587->13222|12603->13228|12670->13272|12765->13339|12781->13345|12848->13389|12943->13456|12959->13462|13027->13507|13122->13574|13138->13580|13204->13623|14726->15115|14757->15116|14790->15119|14821->15120|15891->16159
+                  LINES: 23->5|28->5|29->6|30->7|30->7|30->7|32->9|35->12|35->12|35->12|36->13|37->14|38->15|44->52|45->53|57->65|57->65|57->65|70->78|70->78|70->78|161->169|161->169|161->169|166->174|166->174|166->174|171->179|171->179|171->179|176->184|176->184|176->184|181->189|181->189|181->189|186->194|186->194|186->194|199->207|199->207|199->207|200->208|200->208|200->208|201->209|201->209|201->209|202->210|202->210|202->210|203->211|203->211|203->211|204->212|204->212|204->212|205->213|205->213|205->213|206->214|206->214|206->214|231->239|231->239|231->239|231->239|255->263
                   -- GENERATED --
               */
           

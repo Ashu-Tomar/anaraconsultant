@@ -7,10 +7,10 @@
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 580px;
 }
 .slide-first{
-    background-image: url("../images/slider/editedanara.png");
+    background-image: url("../images/slider/bg1.jpg");
 }
 .slide-second{
     background-image: url("../images/slider/bg2.jpg");
@@ -110,6 +110,12 @@
     width: 50%;
     height: 71%;
 }
+.asrain-image{
+    width: 65%;
+}
+.gharbia{
+    width:68%;
+}
 @media only screen and (max-width: 649px){
     #client .client-logo {
         text-align: center;
@@ -144,8 +150,13 @@
         width: 25%;
     }
 }
+#main-slider .carousel .carousel-content {
+    margin-top: 230px;
+    text-align:center;
+}
 .place-list{
     position:relative;
+    padding-left: 0px;
 }
 .place-list li{
     display: table-cell;
@@ -153,9 +164,18 @@
     padding: 0px;
     vertical-align: top;
     position:relative;
+    width:100%
 }
 .place-list li img{
     width: 150px;
+    margin-left: -10px;
+}
+.banner_icon{
+    margin-top:20px;
+    /*padding: 20px 30px;*/
+}
+.banner_icon img{
+    width:50%
 }
 /*==About Us CSS==*/
 .content {
@@ -394,7 +414,7 @@ progress {
     }
 }
 .hr-custom {
-    margin: 2em auto 0;
+    margin: 2em auto 10px;
     height: 4.1875rem;
 }
 @media only screen and (min-width: 40.063em){
@@ -443,8 +463,8 @@ hr {
     padding: 0;
     left: 41.75% !important;
     font-size: 2.25rem;
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     margin: -21px auto 0;
     content: "";
 }
@@ -506,16 +526,17 @@ form input[type=text], form input[type=email], form textarea {
 .contact-sub-wrapper{
     border: 1px solid #e5e5e5;
     background: #fff;
-    margin: auto 50px;
+    margin: 0px 50px 20px;
 }
 .contact-from{
     bordre-top: 1px solid #ccc;
 }
 .location{
-    padding-left: 3%;
+    padding-left: 1%;
 }
 .location > h2 {
-    margin-bottom: 45px;
+    margin-bottom: 60px;
+    margin-top: 0px;
     text-indent: -10000px;
 }
 .location h2::before {
@@ -654,3 +675,15 @@ form input[type=text], form input[type=email], form textarea {
     font-size: 21px;
 }
 /*==End About Us Team new design==*/
+.adr {
+    margin-bottom: 10px;
+}
+.adr .fa {
+    font-size: 16px;
+    margin-top: 2px;
+}
+.location .fa {
+    margin-right: 10px;
+    display: inline-block;
+    color: #767676;
+}
