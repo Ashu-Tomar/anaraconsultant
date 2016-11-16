@@ -14,18 +14,18 @@ import play.api.templates.PlayMagic._
 import play.api.mvc._
 import play.api.data._
 
-class contactus extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
+class contactus extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template2[Form[UserData],Option[String],play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/(message: String):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*2.2*/(userForm: Form[UserData], emailSent: Option[String]):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*1.19*/("""
-"""),_display_(/*2.2*/views/*2.7*/.html.main("Welcome to Play")/*2.36*/ {_display_(Seq[Any](format.raw/*2.38*/("""
-  """),format.raw/*3.3*/("""<div class="contact-container slick-slide">
-    <img class="img-responsive" src=""""),_display_(/*4.39*/routes/*4.45*/.Assets.versioned("images/contact/contact.png")),format.raw/*4.92*/("""">
+Seq[Any](format.raw/*2.55*/("""
+"""),_display_(/*3.2*/views/*3.7*/.html.main("Welcome to Play")/*3.36*/ {_display_(Seq[Any](format.raw/*3.38*/("""
+  """),format.raw/*4.3*/("""<div class="contact-container slick-slide">
+    <img class="img-responsive" src=""""),_display_(/*5.39*/routes/*5.45*/.Assets.versioned("images/contact/contact.png")),format.raw/*5.92*/("""">
     <div class="slide-content "><!-- DEV: PLease add here ability to toggle slide-align-left and slide-align-right classes -->
       <div class="slide-content-inner">
         <div class="hr-custom contact">
@@ -42,6 +42,11 @@ Seq[Any](format.raw/*1.19*/("""
   <div class="container">
     <section id="contact-info" class="contact-sub-wrapper">
       <div class="row">
+        <div class="makeSomething">
+        """),_display_(/*23.10*/if(emailSent.isDefined)/*23.33*/ {_display_(Seq[Any](format.raw/*23.35*/("""
+          """),format.raw/*24.11*/("""<a class="displayMessage" style="display: none"></a>
+        """)))}),format.raw/*25.10*/("""
+        """),format.raw/*26.9*/("""</div>
         <div class="center reach-us">
           <h2>Talk To Us?</h2>
           <p class="lead">Whether you have specific needs or just want to say hello, feel free to send us a message or give us a call.
@@ -51,7 +56,7 @@ Seq[Any](format.raw/*1.19*/("""
       <div class="row contact-form">
         <div class="col-md-8 col-sm-8" style="margin-bottom: 30px; font-weight: bold; font-size: 16px;">
           <div class="col-md-12 col-sm-12 bordered-form">
-            <form action="/" id="engage-knoldus-form" class="form-wrapper" method="post" role="form" validate="">
+            <form action="/contactform" id="signup-form" name="ashupagal" class="form-wrapper" method="post" role="form" validate="">
               <div class="form-group clearfix">
                 <label>First Name</label>
                 <input type="text" id="name" name="firstname" required="">
@@ -87,8 +92,8 @@ Seq[Any](format.raw/*1.19*/("""
         <div class="col-md-1 col-sm-1" style="height:555px;">
             <div class="divider"></div>
         </div>
-        """),format.raw/*85.17*/("""
-        """),format.raw/*86.9*/("""<div class="col-md-3 col-sm-3 location">
+        """),format.raw/*91.17*/("""
+        """),format.raw/*92.9*/("""<div class="col-md-3 col-sm-3 location">
           <h2>ions</h2>
           <p class="adr clearfix">
             <i class="fa fa-map-marker pull-left"></i>
@@ -100,7 +105,8 @@ Seq[Any](format.raw/*1.19*/("""
             </span>
           </p>
           <p class="tel"><i class="fa fa-phone"></i>+91-956038636</p>
-          <p class="email"><i class="fa fa-envelope"></i><a href="#">contact@anaraconsultant.com</a></p>
+          <p class="tel"><i class="fa fa-phone"></i>+91 120 2542066</p>
+          <p class="email"><i class="fa fa-envelope"></i> contact@anaraconsultant.com </p>
 
           <p class="adr clearfix" style="margin-top:50px">
             <i class="fa fa-map-marker pull-left"></i>
@@ -112,7 +118,7 @@ Seq[Any](format.raw/*1.19*/("""
             </span>
           </p>
           <p class="tel"><i class="fa fa-phone"></i>+96894401731</p>
-          <p class="email"><i class="fa fa-envelope"></i><a href="#">info@anaraconsultant.com</a></p>
+          <p class="email"><i class="fa fa-envelope"></i> info@anaraconsultant.com </p>
 
         </div>
       </div>
@@ -139,9 +145,9 @@ Seq[Any](format.raw/*1.19*/("""
     }
   }
 
-  def render(message:String): play.twirl.api.HtmlFormat.Appendable = apply(message)
+  def render(userForm:Form[UserData],emailSent:Option[String]): play.twirl.api.HtmlFormat.Appendable = apply(userForm,emailSent)
 
-  def f:((String) => play.twirl.api.HtmlFormat.Appendable) = (message) => apply(message)
+  def f:((Form[UserData],Option[String]) => play.twirl.api.HtmlFormat.Appendable) = (userForm,emailSent) => apply(userForm,emailSent)
 
   def ref: this.type = this
 
@@ -154,11 +160,11 @@ Seq[Any](format.raw/*1.19*/("""
 object contactus extends contactus_Scope0.contactus
               /*
                   -- GENERATED --
-                  DATE: Tue Nov 08 13:18:13 IST 2016
+                  DATE: Thu Nov 17 00:04:20 IST 2016
                   SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/contactus.scala.html
-                  HASH: e001f248a883f355f889fad9d51f720540304152
-                  MATRIX: 535->1|647->18|674->20|686->25|723->54|762->56|791->59|899->141|913->147|980->194|3517->3568|3553->3577
-                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|28->4|28->4|28->4|90->85|91->86
+                  HASH: e598192b9cf653bcca0ce820c30baa9a21e802ca
+                  MATRIX: 558->2|706->55|733->57|745->62|782->91|821->93|850->96|958->178|972->184|1039->231|1669->834|1701->857|1741->859|1780->870|1873->932|1909->941|3915->3784|3951->3793
+                  LINES: 20->2|25->2|26->3|26->3|26->3|26->3|27->4|28->5|28->5|28->5|46->23|46->23|46->23|47->24|48->25|49->26|95->91|96->92
                   -- GENERATED --
               */
           

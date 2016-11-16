@@ -1,4 +1,5 @@
-@(message: String)
+
+@(userForm: Form[UserData], emailSent: Option[String])
 @views.html.main("Welcome to Play") {
   <div class="contact-container slick-slide">
     <img class="img-responsive" src="@routes.Assets.versioned("images/contact/contact.png")">
@@ -18,6 +19,11 @@
   <div class="container">
     <section id="contact-info" class="contact-sub-wrapper">
       <div class="row">
+        <div class="makeSomething">
+        @if(emailSent.isDefined) {
+          <a class="displayMessage" style="display: none"></a>
+        }
+        </div>
         <div class="center reach-us">
           <h2>Talk To Us?</h2>
           <p class="lead">Whether you have specific needs or just want to say hello, feel free to send us a message or give us a call.
@@ -27,7 +33,7 @@
       <div class="row contact-form">
         <div class="col-md-8 col-sm-8" style="margin-bottom: 30px; font-weight: bold; font-size: 16px;">
           <div class="col-md-12 col-sm-12 bordered-form">
-            <form action="/" id="engage-knoldus-form" class="form-wrapper" method="post" role="form" validate="">
+            <form action="/contactform" id="signup-form" name="ashupagal" class="form-wrapper" method="post" role="form" validate="">
               <div class="form-group clearfix">
                 <label>First Name</label>
                 <input type="text" id="name" name="firstname" required="">
@@ -95,7 +101,8 @@
             </span>
           </p>
           <p class="tel"><i class="fa fa-phone"></i>+91-956038636</p>
-          <p class="email"><i class="fa fa-envelope"></i><a href="#">contact@@anaraconsultant.com</a></p>
+          <p class="tel"><i class="fa fa-phone"></i>+91 120 2542066</p>
+          <p class="email"><i class="fa fa-envelope"></i> contact@@anaraconsultant.com </p>
 
           <p class="adr clearfix" style="margin-top:50px">
             <i class="fa fa-map-marker pull-left"></i>
@@ -107,7 +114,7 @@
             </span>
           </p>
           <p class="tel"><i class="fa fa-phone"></i>+96894401731</p>
-          <p class="email"><i class="fa fa-envelope"></i><a href="#">info@@anaraconsultant.com</a></p>
+          <p class="email"><i class="fa fa-envelope"></i> info@@anaraconsultant.com </p>
 
         </div>
       </div>

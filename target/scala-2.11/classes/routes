@@ -9,6 +9,7 @@ GET     /contactus                  controllers.HomeController.contactus
 GET     /services                   controllers.HomeController.services
 GET     /pagenotfound               controllers.HomeController.pagenotfound
 POST    /widgets                    controllers.HomeController.submitData
+POST    /contactform                    controllers.HomeController.contactsubmitData
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code

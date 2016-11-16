@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/ashu/Documents/projects/anaraconsultant/conf/routes
-// @DATE:Tue Nov 08 13:54:18 IST 2016
+// @DATE:Wed Nov 16 23:41:02 IST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -14,7 +14,7 @@ import _root_.controllers.Assets.Asset
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:15
+  // @LINE:16
   class ReverseAsyncController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -22,7 +22,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:15
+    // @LINE:16
     def message: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AsyncController.message",
       """
@@ -102,9 +102,19 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:12
+    def contactsubmitData: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.contactsubmitData",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "contactform"})
+        }
+      """
+    )
+  
   }
 
-  // @LINE:18
+  // @LINE:19
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -112,7 +122,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:18
+    // @LINE:19
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -124,7 +134,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:13
+  // @LINE:14
   class ReverseCountController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -132,7 +142,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:14
     def count: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.CountController.count",
       """

@@ -41,7 +41,7 @@ class HomeController @Inject()(mailerClient: MailerClient) extends Controller {
   }
 
   def contactus = Action {
-    Ok(views.html.contactus(""))
+    Ok(views.html.contactus.apply(Application.userForm, None))
   }
 
   def services = Action {
@@ -65,7 +65,27 @@ class HomeController @Inject()(mailerClient: MailerClient) extends Controller {
         val message: String = userData.message
         sendEmail(first_name, last_name, email, phone_number, message)
 
+
         Ok(views.html.index(Application.userForm, Some("emailSent")))
+      }
+    )
+  }
+  def contactsubmitData = Action { implicit request =>
+    Application.userForm.bindFromRequest.fold(
+      formWithErrors => {
+        // binding failure, you retrieve the form containing errors:
+        BadRequest("sorry has some errors in forms " + formWithErrors)
+      },
+      userData => {
+        /* binding success, you get the actual value. */
+        val first_name: String = userData.firstname
+        val last_name: String = userData.lastname
+        val email: String = userData.email
+        val phone_number: Long = userData.phone
+        val message: String = userData.message
+        sendEmail(first_name, last_name, email, phone_number, message)
+
+        Ok(views.html.contactus(Application.userForm, Some("emailSent")))
       }
     )
   }

@@ -18,21 +18,26 @@
                     <div class="item active slide-first">
                         <div class="container">
                             <div class="row slide-margin">
-                                <@*div class="col-xs-offset-1 col-md-offset-3 col-sm-6">
+                                <div class="col-md-offset-3 col-md-6">
                                     <div class="carousel-content">
-                                        <h1 class="animation animated-item-1">
-                                            ANARA  *@@*is Recruiter-candidates meeting platform-Transform talent into success*@@*</h1>
+                                        <h1 class="animation animated-item-1" style="color:#000">
+                                            ANARA  @*is Recruiter-candidates meeting platform-Transform talent into success*@</h1>
                                         <h2 class="animation animated-item-2">
                                             Hire the right candidate or Pick your dream job</h2>
-                                        *@@*<a id="signupbtn" class="btn-slide animation animated-item-3" onclick="showDiv()">Sign Up</a>*@@*
+                                         @*<a id="signupbtn" class="btn-slide animation animated-item-3" onclick="showDiv()">Sign Up</a>*@
                                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                                            Sign up
+                                            Talk To Our Experts
                                         </button>
 
                                     </div>
                                 </div>
-                                </div>
-                                <div class="row">
+                                @*<div class="col-xs-offset-1 col-md-5 animation animated-item-4">
+                                    <div class="slider-img">
+                                        <img src="@routes.Assets.versioned("images/slider/ab.png")" class="img-responsive">
+                                    </div>
+                                </div>*@
+                            </div>
+                        <@*<div class="row">
                                 <div class="banner_icon imgcenter text-center">
                                     <div class="col-lg-4 col-sm-4 col-xs-12">
                                         <a href="#">
@@ -50,7 +55,7 @@
                                             class="wow zoomIn"></i></a>
                                     </div>
                                 </div>*@
-                                    <div class="col-sm-6">
+                                    @*<div class="col-sm-6">
                                         <div class="carousel-content">
                                             <h1 class="animation animated-item-1">ANARA </h1>
                                             <h2 class="animation animated-item-2">Hire the right candidate or Pick your dream job</h2>
@@ -64,12 +69,11 @@
                                         <div class="slider-img">
                                             <img src="@routes.Assets.versioned("images/slider/img1.png")" class="img-responsive">
                                         </div>
-                                    </div>
+                                    </div>*@
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <section id="recent-works">
             <div class="container">
@@ -113,45 +117,45 @@
                 <div class="row">
                     <div class="features">
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                            <div class="feature-wrap">
-                                <i class="fa fa-cogs feature-wrap-wdt-hover"></i>
+                            <div id="feature-wrap">
+                                <i id="icl" class="fa fa-cogs feature-wrap-wdt-hover"></i>
                                 <h2>Civil, Mechanical & Electrical Engg</h2>
                                 <h3> Mechanical, Civil, Electrical</h3>
                             </div>
                         </div><!--/.col-md-4-->
 
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                            <div class="feature-wrap">
-                                <i class="fa fa-home feature-wrap-wdt-hover"></i>
+                            <div id="feature-wrap">
+                                <i id="icl" class="fa fa-home feature-wrap-wdt-hover"></i>
                                 <h2>Hospitality Industry</h2>
                                 <h3>Hotels, Motels, Resorts, Restaurants, Cruises</h3>
                             </div>
                         </div><!--/.col-md-4-->
 
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                            <div class="feature-wrap">
-                                <i class="fa fa-medkit feature-wrap-wdt-hover"></i>
+                            <div id="feature-wrap">
+                                <i id="icl" class="fa fa-medkit feature-wrap-wdt-hover"></i>
                                 <h2>Medical</h2>
                                 <h3>Hospitals, Nursing Homes, Old Age Homes</h3>
                             </div>
                         </div><!--/.col-md-4-->
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                            <div class="feature-wrap">
-                                <i class="fa fa-dropbox feature-wrap-wdt-hover"></i>
+                            <div id="feature-wrap">
+                                <i id="icl" class="fa fa-dropbox feature-wrap-wdt-hover"></i>
                                 <h2>Information Technology</h2>
                                 <h3>Hardware, Software, Telecommunications</h3>
                             </div>
                         </div><!--/.col-md-4-->
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                            <div class="feature-wrap">
-                                <i class="fa fa-tint feature-wrap-wdt-hover"></i>
+                            <div id="feature-wrap">
+                                <i id="icl" class="fa fa-tint feature-wrap-wdt-hover"></i>
                                 <h2>Oil & Gas Field Operation Personnel</h2>
                                 <h3>Mechanical, Civil, Electrical, Electro-Mechanical, Pipeline</h3>
                             </div>
                         </div><!--/.col-md-4-->
                         <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                            <div class="feature-wrap">
-                                <i class="fa fa-plane feature-wrap-wdt-hover"></i>
+                            <div id="feature-wrap">
+                                <i id="icl" class="fa fa-plane feature-wrap-wdt-hover"></i>
                                 <h2>Aeronautical Engineers & General</h2>
                                 <h3>Administration, Production, Maintenance, Technical</h3>
                             </div><!--/.col-md-4-->
@@ -200,7 +204,7 @@
         <section id="conatcat-info">
             <div class="container">
                 <h3>We recruit and outsource for different location such as <b>
-                    Iraq, Jordan, Saudi Arabia, Dubai, Kuwait, U.A.E, Oman, Libya, Qatar, Bahrain, other
+                    Dubai, Kuwait, U.A.E, Oman, Libya, Qatar, Bahrain, Iraq, Jordan, Saudi Arabia, other
                     Middle East and Gulf countries</b></h3>
                     <div class="section-content section-alter knoldus-section-content" style="padding:0">
                         <ul class="place-list">
