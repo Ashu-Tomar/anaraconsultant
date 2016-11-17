@@ -16,7 +16,7 @@
             rgba(20,20,20, .1)),
     url("../images/slider/sd.jpg");
 }
-}
+
 .slide-second{
     background-image: url("../images/slider/bg2.jpg");
 }
