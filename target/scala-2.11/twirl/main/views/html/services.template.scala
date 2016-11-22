@@ -193,26 +193,68 @@ Seq[Any](format.raw/*1.19*/("""
                 </div>
             </div>
         </div>
+        <div class="row contact-form  ">
+            <div class="col-md-12 col-sm-12" style="margin-bottom: 30px; font-weight: bold; font-size: 16px;">
+                <div class="bordered-form">
+                    <h3> Send your details to book your ticket <br>
+                        <span style="text-transform: none;font-weight: normal;font-size: 18px;position: relative;top: 10px;left: 0px;letter-spacing: 0px;color:#000;font-family: 'Josefin Sans', sans-serif;">
+                            ( or send a mail to <a href="mailto:inf@anaraconsultant">
+                            contact@anaraconsultant.com</a> with your details. )
+                        </span>
+                    </h3>
+                    <form action="/contactform" id="signup-form" name="ashupagal" class="form-wrapper" method="post" role="form" validate="">
+                        <div class="form-group clearfix">
+                            <label>First Name</label>
+                            <input type="text" id="name" name="firstname" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Last Name</label>
+                            <input type="text" id="name" name="lastname" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Phone Number</label>
+                            <input type="text" id="name" name="phone" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Email</label>
+                            <input type="email" name="email" id="user-email" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Message</label>
+                            <textarea name="message" id="message" required="" style="min-height: 90px;"></textarea>
+                        </div>
+                        <div class="form-group clearfix">
+                            <input type="submit" value="Send" class="btn btn-primary leave-message-btn">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+         </div>
     </div>
-        """)))}),format.raw/*173.10*/("""
-"""),format.raw/*174.1*/("""<script>
+        """)))}),format.raw/*215.10*/("""
+"""),format.raw/*216.1*/("""<script>
         var canvas = document.getElementById("myCanvas");
         var context = canvas.getContext('2d');
         var imageObj = new Image();
 
-        imageObj.onload = function() """),format.raw/*179.38*/("""{"""),format.raw/*179.39*/("""
-            """),format.raw/*180.13*/("""context.drawImage(imageObj, 30, 60);
-        """),format.raw/*181.9*/("""}"""),format.raw/*181.10*/(""";
+        imageObj.onload = function() """),format.raw/*221.38*/("""{"""),format.raw/*221.39*/("""
+            """),format.raw/*222.13*/("""context.drawImage(imageObj, 30, 60);
+        """),format.raw/*223.9*/("""}"""),format.raw/*223.10*/(""";
 
-        imageObj.src = """"),_display_(/*183.26*/routes/*183.32*/.Assets.versioned("images/services/procedure/img1.png")),format.raw/*183.87*/("""";
-        $(document).ready(function()"""),format.raw/*184.37*/("""{"""),format.raw/*184.38*/("""
+        imageObj.src = """"),_display_(/*225.26*/routes/*225.32*/.Assets.versioned("images/services/procedure/img1.png")),format.raw/*225.87*/("""";
+        $(document).ready(function()"""),format.raw/*226.37*/("""{"""),format.raw/*226.38*/("""
 
-            """),format.raw/*186.13*/("""$('#change').click(function()"""),format.raw/*186.42*/("""{"""),format.raw/*186.43*/("""
-                """),format.raw/*187.17*/("""var a = $('#takeinput').val();
+            """),format.raw/*228.13*/("""$('#change').click(function()"""),format.raw/*228.42*/("""{"""),format.raw/*228.43*/("""
+                """),format.raw/*229.17*/("""var a = $('#takeinput').val();
                 console.log("a:== " +a);
                 $('p').text(a);
-            """),format.raw/*190.13*/("""}"""),format.raw/*190.14*/(""");
-        """),format.raw/*191.9*/("""}"""),format.raw/*191.10*/(""");
+            """),format.raw/*232.13*/("""}"""),format.raw/*232.14*/(""");
+        """),format.raw/*233.9*/("""}"""),format.raw/*233.10*/(""");
 </script>"""))
       }
     }
@@ -233,11 +275,11 @@ Seq[Any](format.raw/*1.19*/("""
 object services extends services_Scope0.services
               /*
                   -- GENERATED --
-                  DATE: Tue Nov 22 13:16:40 IST 2016
+                  DATE: Tue Nov 22 13:44:21 IST 2016
                   SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/services.scala.html
-                  HASH: c61f8e75f8d08ff1880f1e84e969ce642f39d002
-                  MATRIX: 533->1|645->18|672->20|684->25|721->54|760->56|791->61|3007->2283|3052->2300|3325->2586|3370->2603|10500->9701|10529->9702|10746->9890|10776->9891|10818->9904|10891->9949|10921->9950|10977->9978|10993->9984|11070->10039|11138->10078|11168->10079|11211->10093|11269->10122|11299->10123|11345->10140|11490->10256|11520->10257|11559->10268|11589->10269
-                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|60->36|61->37|66->42|67->43|197->173|198->174|203->179|203->179|204->180|205->181|205->181|207->183|207->183|207->183|208->184|208->184|210->186|210->186|210->186|211->187|214->190|214->190|215->191|215->191
+                  HASH: 7fdfc3e1cb345aacdf47d109c71d1a3646a1bf91
+                  MATRIX: 533->1|645->18|672->20|684->25|721->54|760->56|791->61|3007->2283|3052->2300|3325->2586|3370->2603|12793->11996|12822->11997|13039->12185|13069->12186|13111->12199|13184->12244|13214->12245|13270->12273|13286->12279|13363->12334|13431->12373|13461->12374|13504->12388|13562->12417|13592->12418|13638->12435|13783->12551|13813->12552|13852->12563|13882->12564
+                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|60->36|61->37|66->42|67->43|239->215|240->216|245->221|245->221|246->222|247->223|247->223|249->225|249->225|249->225|250->226|250->226|252->228|252->228|252->228|253->229|256->232|256->232|257->233|257->233
                   -- GENERATED --
               */
           

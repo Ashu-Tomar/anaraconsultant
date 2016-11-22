@@ -292,3 +292,18 @@ div.content-box-text i{
     color: #8dc153;
     font-size: 18px;
 }
+.bordered-form {
+    border: 1px solid #ddd;
+    padding: 30px 30px 3px 30px;
+    background: #fff;
+    width:81%;
+    display:block;
+    margin:auto;
+}
+.bordered-form h3 {
+    color: #8dc153!important;
+    font-weight: bold;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 31px;
+    margin-bottom: 45px;
+}
