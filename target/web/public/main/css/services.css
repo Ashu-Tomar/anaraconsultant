@@ -129,3 +129,166 @@ h2 {
 .reach-us{
     padding:40px;
 }
+.procedure{
+    background: url(../images/services/procedure/img1.png) no-repeat;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel.panel-circle-big-contrast {
+    margin-top: 90px;
+    margin-bottom: 0;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    display: block;
+    border: 2px solid #eaedf2;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.panel.panel-circle-big-contrast .panel-body {
+    padding-top: 72px;
+    text-align: center;
+}
+
+.panel.panel-circle-big-contrast .panel-icon {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    background-color: white;
+    /*background: url(../images/services/procedure/img1.png) no-repeat;*/
+    line-height: 90px;
+    width: 120px;
+    height: 90px;
+}
+.panel.panel-circle-big-contrast .panel-icon p {
+    background: url(../images/services/procedure/img1.png) no-repeat;
+    color: #39af01;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 90px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.panel.panel-circle-big-contrast .screening p {
+    background: url(../images/services/procedure/img2.png) no-repeat;
+}
+.panel.panel-circle-big-contrast .interview p {
+    background: url(../images/services/procedure/img3.png) no-repeat;
+}
+.panel.panel-circle-big-contrast .filtering p {
+    background: url(../images/services/procedure/img4.png) no-repeat;
+}
+.panel.panel-circle-big-contrast .panel-body .panel-title {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    color:#434955;
+}
+.panel.panel-circle-big-contrast:hover .panel-icon {
+    text-decoration: none;
+}
+.page-header.page-header-with-icon {
+    text-align: center;
+    border-top: 2px solid #eaedf2;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-top: 16px;
+    margin: 90px 0 0px 0;
+}
+.page-header {
+    position: relative;
+}
+.page-header.page-header-with-icon > [class*=" fa-"] {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: -25px;
+    margin-left: -50px;
+    color: #8dc153;;
+    background-color: white;
+    font-size: 33px;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+}
+.page-header.page-header-with-icon h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 20px 10px;
+    font-size: 26px;
+}
+.page-header.page-header-with-icon small {
+    display: block;
+    text-transform: none;
+    font-size: 16px;
+    color: #676f7a;
+    font-family: "Open Sans";
+    margin-top: 15px;
+}
+.service_block {
+    padding: 20px 40px 20px 40px;
+}
+.process-icon {
+    margin: 0 7px 0 0;
+    padding: 7px 0;
+    font-size: 50px;
+    border: 2px solid #fd7a03;
+    padding: 12px;
+    border-radius: 50%;
+    /*color: #2e6f82;*/
+    color: #fd7a03;
+    padding: 12px 18px;
+}
+.service_block h4, .training-head h4 {
+    font-family: 'Quicksand',sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fd7a03!important;
+    margin-top: 25px!important;
+}
+.service_block p {
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 19px;
+    line-height: 27px;
+    color: #444;
+    padding: 3px 0 7px;
+    margin-bottom: 10px;
+    font-size: 22px!important;
+    line-height: 30px!important;
+    color: #666!important;
+}
+.paragraph_google_font {
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 2px;
+    font-family: 'Josefin Sans',sans-serif;
+    color: #555;
+}
+div.content-box-text {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+div.content-box-text i{
+    color: #8dc153;
+    font-size: 18px;
+}

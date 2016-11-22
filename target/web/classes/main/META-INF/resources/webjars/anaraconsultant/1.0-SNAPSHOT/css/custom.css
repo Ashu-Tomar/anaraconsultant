@@ -45,7 +45,8 @@
 }
 .slide-margin h2{
     font-size:22px;
-    text-shadow: 1px 2px 2px #7d6c6c;
+    /*text-shadow: 1px 2px 2px #7d6c6c;*/
+    text-shadow: 2px 2px 0 #dadada,1px 5px 0 rgba(189, 113, 113, 0.15);
 }
 .btn-slide{
     font-size:16px;

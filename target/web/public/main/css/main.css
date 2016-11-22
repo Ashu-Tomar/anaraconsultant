@@ -389,7 +389,8 @@ input.search-form:hover {
 }
 
 #main-slider .carousel h2 {
-  color: #fff;
+  /*color: #fff;*/
+  color: #af4444;
 }
 
 #main-slider .carousel .btn-slide {

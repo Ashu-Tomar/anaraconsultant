@@ -1,4 +1,4 @@
-[0m[[31merror[0m] [0m/home/ashu/Documents/projects/anaraconsultant/app/views/about.scala.html:174: Expected '}' but found '@'[0m
-[0m[[31merror[0m] [0m                                    job boards, cold calling, and other innovative search techniques.</p>*@[0m
-[0m[[31merror[0m] [0m                                                                                                          ^[0m
+[0m[[31merror[0m] [0m/home/ashu/Documents/projects/anaraconsultant/app/views/services.scala.html:74: Not parsed?[0m
+[0m[[31merror[0m] [0m         };       }[0m
+[0m[[31merror[0m] [0m                  ^[0m
 [0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

@@ -10,6 +10,7 @@
 <html lang="en">
     <head>
         @* Here's where we render the page title `String`. *@
+    <link href='//fonts.googleapis.com/css?family=Quicksand|Open+Sans:400,600|Montserrat:400,700|Poiret+One|Josefin+Sans|Raleway' rel='stylesheet' type='text/css'>
         <meta name="google-site-verification" content="ZH2yvt6jWmNHrjSwkYac1IH3XVxXCaJ5SdGCdcsOq4Q"/>
         <title>AnaraConsultant</title>
         <link href="@routes.Assets.versioned("css/bootstrap.min.css")" rel="stylesheet">
@@ -22,6 +23,7 @@
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
         <link href="@routes.Assets.versioned("css/services.css")" rel="stylesheet">
         <link href="@routes.Assets.versioned("css/custom.css")" rel="stylesheet">
+
     </head>
     <body>
         @* And here's where we render the `Html` object containing
@@ -43,7 +45,7 @@
                     <ul id="navbar" class="nav navbar-nav">
                         <li><a href="@routes.HomeController.index()">Home</a></li>
                         <li><a href="@routes.HomeController.about()">About Us</a></li>
-                        <li><a href="@routes.HomeController.pagenotfound()">Services</a></li>
+                        <li><a href="@routes.HomeController.services()">Services</a></li>
                         <li><a href="@routes.HomeController.pagenotfound()">Current oppurinities</a></li>
                         <li><a href="@routes.HomeController.contactus()">Contact Us</a></li>
                     </ul>

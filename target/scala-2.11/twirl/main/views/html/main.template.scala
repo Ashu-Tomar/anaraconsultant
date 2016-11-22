@@ -33,22 +33,24 @@ Seq[Any](format.raw/*7.32*/("""
 <html lang="en">
     <head>
         """),format.raw/*12.62*/("""
-        """),format.raw/*13.9*/("""<meta name="google-site-verification" content="ZH2yvt6jWmNHrjSwkYac1IH3XVxXCaJ5SdGCdcsOq4Q"/>
+    """),format.raw/*13.5*/("""<link href='//fonts.googleapis.com/css?family=Quicksand|Open+Sans:400,600|Montserrat:400,700|Poiret+One|Josefin+Sans|Raleway' rel='stylesheet' type='text/css'>
+        <meta name="google-site-verification" content="ZH2yvt6jWmNHrjSwkYac1IH3XVxXCaJ5SdGCdcsOq4Q"/>
         <title>AnaraConsultant</title>
-        <link href=""""),_display_(/*15.22*/routes/*15.28*/.Assets.versioned("css/bootstrap.min.css")),format.raw/*15.70*/("""" rel="stylesheet">
-        <link href=""""),_display_(/*16.22*/routes/*16.28*/.Assets.versioned("css/font-awesome.min.css")),format.raw/*16.73*/("""" rel="stylesheet">
-        <link href=""""),_display_(/*17.22*/routes/*17.28*/.Assets.versioned("css/animate.min.css")),format.raw/*17.68*/("""" rel="stylesheet">
-        <link href=""""),_display_(/*18.22*/routes/*18.28*/.Assets.versioned("css/prettyPhoto.css")),format.raw/*18.68*/("""" rel="stylesheet">
-        <link href=""""),_display_(/*19.22*/routes/*19.28*/.Assets.versioned("css/main.css")),format.raw/*19.61*/("""" rel="stylesheet">
-        <link href=""""),_display_(/*20.22*/routes/*20.28*/.Assets.versioned("css/responsive.css")),format.raw/*20.67*/("""" rel="stylesheet">
-        <link href=""""),_display_(/*21.22*/routes/*21.28*/.Assets.versioned("css/sweetalert.css")),format.raw/*21.67*/("""" rel="stylesheet">
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*22.59*/routes/*22.65*/.Assets.versioned("images/favicon.png")),format.raw/*22.104*/("""">
-        <link href=""""),_display_(/*23.22*/routes/*23.28*/.Assets.versioned("css/services.css")),format.raw/*23.65*/("""" rel="stylesheet">
-        <link href=""""),_display_(/*24.22*/routes/*24.28*/.Assets.versioned("css/custom.css")),format.raw/*24.63*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*16.22*/routes/*16.28*/.Assets.versioned("css/bootstrap.min.css")),format.raw/*16.70*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*17.22*/routes/*17.28*/.Assets.versioned("css/font-awesome.min.css")),format.raw/*17.73*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*18.22*/routes/*18.28*/.Assets.versioned("css/animate.min.css")),format.raw/*18.68*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*19.22*/routes/*19.28*/.Assets.versioned("css/prettyPhoto.css")),format.raw/*19.68*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*20.22*/routes/*20.28*/.Assets.versioned("css/main.css")),format.raw/*20.61*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*21.22*/routes/*21.28*/.Assets.versioned("css/responsive.css")),format.raw/*21.67*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*22.22*/routes/*22.28*/.Assets.versioned("css/sweetalert.css")),format.raw/*22.67*/("""" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*23.59*/routes/*23.65*/.Assets.versioned("images/favicon.png")),format.raw/*23.104*/("""">
+        <link href=""""),_display_(/*24.22*/routes/*24.28*/.Assets.versioned("css/services.css")),format.raw/*24.65*/("""" rel="stylesheet">
+        <link href=""""),_display_(/*25.22*/routes/*25.28*/.Assets.versioned("css/custom.css")),format.raw/*25.63*/("""" rel="stylesheet">
+
     </head>
     <body>
-        """),format.raw/*28.32*/("""
-    """),format.raw/*29.5*/("""<header id="header">
+        """),format.raw/*30.32*/("""
+    """),format.raw/*31.5*/("""<header id="header">
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -58,16 +60,16 @@ Seq[Any](format.raw/*7.32*/("""
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src=""""),_display_(/*39.74*/routes/*39.80*/.Assets.versioned("images/anara-logo.png")),format.raw/*39.122*/("""" alt="logo" height="65px"></a>
+                    <a class="navbar-brand" href="index.html"><img src=""""),_display_(/*41.74*/routes/*41.80*/.Assets.versioned("images/anara-logo.png")),format.raw/*41.122*/("""" alt="logo" height="65px"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul id="navbar" class="nav navbar-nav">
-                        <li><a href=""""),_display_(/*44.39*/routes/*44.45*/.HomeController.index()),format.raw/*44.68*/("""">Home</a></li>
-                        <li><a href=""""),_display_(/*45.39*/routes/*45.45*/.HomeController.about()),format.raw/*45.68*/("""">About Us</a></li>
-                        <li><a href=""""),_display_(/*46.39*/routes/*46.45*/.HomeController.pagenotfound()),format.raw/*46.75*/("""">Services</a></li>
-                        <li><a href=""""),_display_(/*47.39*/routes/*47.45*/.HomeController.pagenotfound()),format.raw/*47.75*/("""">Current oppurinities</a></li>
-                        <li><a href=""""),_display_(/*48.39*/routes/*48.45*/.HomeController.contactus()),format.raw/*48.72*/("""">Contact Us</a></li>
+                        <li><a href=""""),_display_(/*46.39*/routes/*46.45*/.HomeController.index()),format.raw/*46.68*/("""">Home</a></li>
+                        <li><a href=""""),_display_(/*47.39*/routes/*47.45*/.HomeController.about()),format.raw/*47.68*/("""">About Us</a></li>
+                        <li><a href=""""),_display_(/*48.39*/routes/*48.45*/.HomeController.services()),format.raw/*48.71*/("""">Services</a></li>
+                        <li><a href=""""),_display_(/*49.39*/routes/*49.45*/.HomeController.pagenotfound()),format.raw/*49.75*/("""">Current oppurinities</a></li>
+                        <li><a href=""""),_display_(/*50.39*/routes/*50.45*/.HomeController.contactus()),format.raw/*50.72*/("""">Contact Us</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -75,9 +77,9 @@ Seq[Any](format.raw/*7.32*/("""
 
     </header><!--/header-->
 
-        """),_display_(/*56.10*/content),format.raw/*56.17*/("""
+        """),_display_(/*58.10*/content),format.raw/*58.17*/("""
 
-        """),format.raw/*58.9*/("""<footer id="footer" class="midnight-blue">
+        """),format.raw/*60.9*/("""<footer id="footer" class="midnight-blue">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -85,25 +87,25 @@ Seq[Any](format.raw/*7.32*/("""
                     </div>
                     <div class="col-sm-6">
                         <ul class="pull-right">
-                            <li><a href=""""),_display_(/*66.43*/routes/*66.49*/.HomeController.index()),format.raw/*66.72*/("""">Home</a></li>
-                            <li><a href=""""),_display_(/*67.43*/routes/*67.49*/.HomeController.about()),format.raw/*67.72*/("""">About Us</a></li>
-                            <li><a href=""""),_display_(/*68.43*/routes/*68.49*/.HomeController.contactus()),format.raw/*68.76*/("""">Contact Us</a></li>
+                            <li><a href=""""),_display_(/*68.43*/routes/*68.49*/.HomeController.index()),format.raw/*68.72*/("""">Home</a></li>
+                            <li><a href=""""),_display_(/*69.43*/routes/*69.49*/.HomeController.about()),format.raw/*69.72*/("""">About Us</a></li>
+                            <li><a href=""""),_display_(/*70.43*/routes/*70.49*/.HomeController.contactus()),format.raw/*70.76*/("""">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </footer><!--/#footer-->
 
-        <script src=""""),_display_(/*75.23*/routes/*75.29*/.Assets.versioned("js/jquery.js")),format.raw/*75.62*/(""""></script>
-        <script src=""""),_display_(/*76.23*/routes/*76.29*/.Assets.versioned("js/bootstrap.min.js")),format.raw/*76.69*/(""""></script>
-        <script src=""""),_display_(/*77.23*/routes/*77.29*/.Assets.versioned("js/jquery.prettyPhoto.js")),format.raw/*77.74*/(""""></script>
-        <script src=""""),_display_(/*78.23*/routes/*78.29*/.Assets.versioned("js/jquery.isotope.min.js")),format.raw/*78.74*/(""""></script>
-        <script src=""""),_display_(/*79.23*/routes/*79.29*/.Assets.versioned("js/main.js")),format.raw/*79.60*/(""""></script>
-        <script src=""""),_display_(/*80.23*/routes/*80.29*/.Assets.versioned("js/wow.min.js")),format.raw/*80.63*/(""""></script>
-        <script src=""""),_display_(/*81.23*/routes/*81.29*/.Assets.versioned("js/jquery.blockUI.js")),format.raw/*81.70*/(""""></script>
-        <script src=""""),_display_(/*82.23*/routes/*82.29*/.Assets.versioned("js/sweetalert.min.js")),format.raw/*82.70*/(""""></script>
-        <script src=""""),_display_(/*83.23*/routes/*83.29*/.Assets.versioned("js/custom.js")),format.raw/*83.62*/(""""></script>
-        <script src=""""),_display_(/*84.23*/routes/*84.29*/.Assets.versioned("js/jquery.flip.js")),format.raw/*84.67*/(""""></script>
+        <script src=""""),_display_(/*77.23*/routes/*77.29*/.Assets.versioned("js/jquery.js")),format.raw/*77.62*/(""""></script>
+        <script src=""""),_display_(/*78.23*/routes/*78.29*/.Assets.versioned("js/bootstrap.min.js")),format.raw/*78.69*/(""""></script>
+        <script src=""""),_display_(/*79.23*/routes/*79.29*/.Assets.versioned("js/jquery.prettyPhoto.js")),format.raw/*79.74*/(""""></script>
+        <script src=""""),_display_(/*80.23*/routes/*80.29*/.Assets.versioned("js/jquery.isotope.min.js")),format.raw/*80.74*/(""""></script>
+        <script src=""""),_display_(/*81.23*/routes/*81.29*/.Assets.versioned("js/main.js")),format.raw/*81.60*/(""""></script>
+        <script src=""""),_display_(/*82.23*/routes/*82.29*/.Assets.versioned("js/wow.min.js")),format.raw/*82.63*/(""""></script>
+        <script src=""""),_display_(/*83.23*/routes/*83.29*/.Assets.versioned("js/jquery.blockUI.js")),format.raw/*83.70*/(""""></script>
+        <script src=""""),_display_(/*84.23*/routes/*84.29*/.Assets.versioned("js/sweetalert.min.js")),format.raw/*84.70*/(""""></script>
+        <script src=""""),_display_(/*85.23*/routes/*85.29*/.Assets.versioned("js/custom.js")),format.raw/*85.62*/(""""></script>
+        <script src=""""),_display_(/*86.23*/routes/*86.29*/.Assets.versioned("js/jquery.flip.js")),format.raw/*86.67*/(""""></script>
 
     </body>
 </html>
@@ -132,11 +134,11 @@ Seq[Any](format.raw/*7.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Wed Nov 16 23:29:38 IST 2016
+                  DATE: Sun Nov 20 18:57:13 IST 2016
                   SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/main.scala.html
-                  HASH: cda4582b48989e61d008bb5ccd2b1fcfd84e7288
-                  MATRIX: 784->260|909->290|937->292|1017->397|1053->406|1234->560|1249->566|1312->608|1380->649|1395->655|1461->700|1529->741|1544->747|1605->787|1673->828|1688->834|1749->874|1817->915|1832->921|1886->954|1954->995|1969->1001|2029->1040|2097->1081|2112->1087|2172->1126|2277->1204|2292->1210|2353->1249|2404->1273|2419->1279|2477->1316|2545->1357|2560->1363|2616->1398|2695->1539|2727->1544|3371->2161|3386->2167|3450->2209|3699->2431|3714->2437|3758->2460|3839->2514|3854->2520|3898->2543|3983->2601|3998->2607|4049->2637|4134->2695|4149->2701|4200->2731|4297->2801|4312->2807|4360->2834|4560->3007|4588->3014|4625->3024|5128->3500|5143->3506|5187->3529|5272->3587|5287->3593|5331->3616|5420->3678|5435->3684|5483->3711|5687->3888|5702->3894|5756->3927|5817->3961|5832->3967|5893->4007|5954->4041|5969->4047|6035->4092|6096->4126|6111->4132|6177->4177|6238->4211|6253->4217|6305->4248|6366->4282|6381->4288|6436->4322|6497->4356|6512->4362|6574->4403|6635->4437|6650->4443|6712->4484|6773->4518|6788->4524|6842->4557|6903->4591|6918->4597|6977->4635
-                  LINES: 25->7|30->7|32->9|35->12|36->13|38->15|38->15|38->15|39->16|39->16|39->16|40->17|40->17|40->17|41->18|41->18|41->18|42->19|42->19|42->19|43->20|43->20|43->20|44->21|44->21|44->21|45->22|45->22|45->22|46->23|46->23|46->23|47->24|47->24|47->24|50->28|51->29|61->39|61->39|61->39|66->44|66->44|66->44|67->45|67->45|67->45|68->46|68->46|68->46|69->47|69->47|69->47|70->48|70->48|70->48|78->56|78->56|80->58|88->66|88->66|88->66|89->67|89->67|89->67|90->68|90->68|90->68|97->75|97->75|97->75|98->76|98->76|98->76|99->77|99->77|99->77|100->78|100->78|100->78|101->79|101->79|101->79|102->80|102->80|102->80|103->81|103->81|103->81|104->82|104->82|104->82|105->83|105->83|105->83|106->84|106->84|106->84
+                  HASH: f5b95ba06b5ab2bfac7161bcb41c2271caac46e1
+                  MATRIX: 784->260|909->290|937->292|1017->397|1049->402|1398->724|1413->730|1476->772|1544->813|1559->819|1625->864|1693->905|1708->911|1769->951|1837->992|1852->998|1913->1038|1981->1079|1996->1085|2050->1118|2118->1159|2133->1165|2193->1204|2261->1245|2276->1251|2336->1290|2441->1368|2456->1374|2517->1413|2568->1437|2583->1443|2641->1480|2709->1521|2724->1527|2780->1562|2860->1704|2892->1709|3536->2326|3551->2332|3615->2374|3864->2596|3879->2602|3923->2625|4004->2679|4019->2685|4063->2708|4148->2766|4163->2772|4210->2798|4295->2856|4310->2862|4361->2892|4458->2962|4473->2968|4521->2995|4721->3168|4749->3175|4786->3185|5289->3661|5304->3667|5348->3690|5433->3748|5448->3754|5492->3777|5581->3839|5596->3845|5644->3872|5848->4049|5863->4055|5917->4088|5978->4122|5993->4128|6054->4168|6115->4202|6130->4208|6196->4253|6257->4287|6272->4293|6338->4338|6399->4372|6414->4378|6466->4409|6527->4443|6542->4449|6597->4483|6658->4517|6673->4523|6735->4564|6796->4598|6811->4604|6873->4645|6934->4679|6949->4685|7003->4718|7064->4752|7079->4758|7138->4796
+                  LINES: 25->7|30->7|32->9|35->12|36->13|39->16|39->16|39->16|40->17|40->17|40->17|41->18|41->18|41->18|42->19|42->19|42->19|43->20|43->20|43->20|44->21|44->21|44->21|45->22|45->22|45->22|46->23|46->23|46->23|47->24|47->24|47->24|48->25|48->25|48->25|52->30|53->31|63->41|63->41|63->41|68->46|68->46|68->46|69->47|69->47|69->47|70->48|70->48|70->48|71->49|71->49|71->49|72->50|72->50|72->50|80->58|80->58|82->60|90->68|90->68|90->68|91->69|91->69|91->69|92->70|92->70|92->70|99->77|99->77|99->77|100->78|100->78|100->78|101->79|101->79|101->79|102->80|102->80|102->80|103->81|103->81|103->81|104->82|104->82|104->82|105->83|105->83|105->83|106->84|106->84|106->84|107->85|107->85|107->85|108->86|108->86|108->86
                   -- GENERATED --
               */
           
