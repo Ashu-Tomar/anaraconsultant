@@ -49,8 +49,8 @@ Seq[Any](format.raw/*1.28*/("""
 object test extends test_Scope0.test
               /*
                   -- GENERATED --
-                  DATE: Mon Sep 26 16:42:06 IST 2016
-                  SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/test.scala.html
+                  DATE: Wed Dec 07 12:08:58 IST 2016
+                  SOURCE: /home/ashu/Documents/anaraconsultant/app/views/test.scala.html
                   HASH: cf505719ea025d76277103ab72b15bd077dec6e1
                   MATRIX: 533->1|654->27|682->51|710->54|741->77|780->79
                   LINES: 20->1|25->1|26->2|28->4|28->4|28->4
