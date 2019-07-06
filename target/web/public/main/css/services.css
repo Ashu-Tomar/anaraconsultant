@@ -261,7 +261,7 @@ h2 {
 .service_block h4, .training-head h4 {
     font-family: 'Quicksand',sans-serif;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     color: #fd7a03!important;
     margin-top: 25px!important;
@@ -291,4 +291,19 @@ div.content-box-text {
 div.content-box-text i{
     color: #8dc153;
     font-size: 18px;
+}
+.bordered-form {
+    border: 1px solid #ddd;
+    padding: 30px 30px 3px 30px;
+    background: #fff;
+    width:81%;
+    display:block;
+    margin:auto;
+}
+.bordered-form h3 {
+    color: #8dc153!important;
+    font-weight: bold;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 31px;
+    margin-bottom: 45px;
 }

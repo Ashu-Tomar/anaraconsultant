@@ -693,3 +693,31 @@ form input[type=text], form input[type=email], form textarea {
     display: inline-block;
     color: #767676;
 }
+.bg-gray {
+    background: #111;
+    /*background: #22292d;*/
+    fill: #111;
+}
+.bg-gray h2{
+    color:#fff;
+}
+.bg-gray-text{
+    color: rgb(159, 173, 181);
+}
+.bg-gray ul {
+    padding-left: 0px;
+}
+.bg-gray li {
+    list-style-type: none;
+    color: rgb(159, 173, 181);
+    font-size:14px;
+}
+.bg-gray a, .bg-gray p, .bg-gray span{
+   /* color: rgb(159, 173, 181);*/
+    color: rgb(189, 190, 191);
+}
+.bg-gray i{
+    font-size:18px;
+    margin:7px;
+    color:#fff;
+}

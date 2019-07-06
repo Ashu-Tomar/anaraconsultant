@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/ashu/Documents/projects/anaraconsultant/conf/routes
-// @DATE:Wed Nov 16 23:41:02 IST 2016
+// @SOURCE:/home/ashu/Documents/anaraconsultant/conf/routes
+// @DATE:Wed Dec 07 12:08:58 IST 2016
 
 package controllers;
 

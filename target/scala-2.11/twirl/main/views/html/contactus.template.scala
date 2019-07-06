@@ -55,7 +55,7 @@ Seq[Any](format.raw/*2.55*/("""
       </div>
       <div class="row contact-form">
         <div class="col-md-8 col-sm-8" style="margin-bottom: 30px; font-weight: bold; font-size: 16px;">
-          <div class="col-md-12 col-sm-12 bordered-form">
+          <div class="col-md-12 col-sm-12">
             <form action="/contactform" id="signup-form" name="ashupagal" class="form-wrapper" method="post" role="form" validate="">
               <div class="form-group clearfix">
                 <label>First Name</label>
@@ -160,10 +160,10 @@ Seq[Any](format.raw/*2.55*/("""
 object contactus extends contactus_Scope0.contactus
               /*
                   -- GENERATED --
-                  DATE: Thu Nov 17 00:04:20 IST 2016
-                  SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/contactus.scala.html
-                  HASH: e598192b9cf653bcca0ce820c30baa9a21e802ca
-                  MATRIX: 558->2|706->55|733->57|745->62|782->91|821->93|850->96|958->178|972->184|1039->231|1669->834|1701->857|1741->859|1780->870|1873->932|1909->941|3915->3784|3951->3793
+                  DATE: Wed Dec 07 12:09:00 IST 2016
+                  SOURCE: /home/ashu/Documents/anaraconsultant/app/views/contactus.scala.html
+                  HASH: d7a8d5d82fdc98d703cf3ad0b3723775e36127f8
+                  MATRIX: 558->2|706->55|733->57|745->62|782->91|821->93|850->96|958->178|972->184|1039->231|1669->834|1701->857|1741->859|1780->870|1873->932|1909->941|3901->3770|3937->3779
                   LINES: 20->2|25->2|26->3|26->3|26->3|26->3|27->4|28->5|28->5|28->5|46->23|46->23|46->23|47->24|48->25|49->26|95->91|96->92
                   -- GENERATED --
               */

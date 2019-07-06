@@ -42,8 +42,8 @@ Seq[Any]()
 object footer extends footer_Scope0.footer
               /*
                   -- GENERATED --
-                  DATE: Fri Sep 23 14:49:17 IST 2016
-                  SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/common/footer.scala.html
+                  DATE: Wed Dec 07 12:09:01 IST 2016
+                  SOURCE: /home/ashu/Documents/anaraconsultant/app/views/common/footer.scala.html
                   HASH: 739ae86c64be1aa34a0973199c9e38da656631a4
                   MATRIX: 
                   LINES: 

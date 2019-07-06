@@ -45,7 +45,7 @@ Seq[Any](format.raw/*1.19*/("""
             <div class="col-md-12 col-sm-12 service_block text-center">
                 <div class="content-box">
                     <h3>
-                        <i class="fa fa-comments process-icon" style="padding:15px 17px ; font-size: 35px ;"></i>
+                        <i class="fa fa-users process-icon" style="padding:15px 17px ; font-size: 35px ;"></i>
                     </h3>
                     <h4 class="h4-body-title process-flow-heading">1. Overseas Recruitment</h4>
 
@@ -114,7 +114,7 @@ Seq[Any](format.raw/*1.19*/("""
             <div class="col-md-12 col-sm-12 service_block text-center">
                 <div class="content-box">
                     <h3>
-                        <i class="fa fa-comments process-icon" style="padding:15px 17px ; font-size: 35px ;"></i>
+                        <i class="fa fa-gavel process-icon" style="padding:15px 17px ; font-size: 35px ;"></i>
                     </h3>
                     <h4 class="h4-body-title process-flow-heading">2. Document Attestation</h4>
 
@@ -184,7 +184,7 @@ Seq[Any](format.raw/*1.19*/("""
             <div class="col-md-12 col-sm-12 service_block text-center">
                 <div class="content-box">
                     <h3>
-                        <i class="fa fa-comments process-icon" style="padding:15px 17px ; font-size: 35px ;"></i>
+                        <i class="fa fa-plane process-icon" style="padding:15px 17px ; font-size: 35px ;"></i>
                     </h3>
                     <h4 class="h4-body-title process-flow-heading">3. Domestic and International Air Ticket</h4>
 
@@ -193,25 +193,68 @@ Seq[Any](format.raw/*1.19*/("""
                 </div>
             </div>
         </div>
-        """)))}),format.raw/*172.10*/("""
-"""),format.raw/*173.1*/("""<script>
+        <div class="row contact-form  ">
+            <div class="col-md-12 col-sm-12" style="margin-bottom: 30px; font-weight: bold; font-size: 16px;">
+                <div class="bordered-form">
+                    <h3> Send your details to book your ticket <br>
+                        <span style="text-transform: none;font-weight: normal;font-size: 18px;position: relative;top: 10px;left: 0px;letter-spacing: 0px;color:#000;font-family: 'Josefin Sans', sans-serif;">
+                            ( or send a mail to <a href="mailto:inf@anaraconsultant">
+                            contact@anaraconsultant.com</a> with your details. )
+                        </span>
+                    </h3>
+                    <form action="/contactform" id="signup-form" name="ashupagal" class="form-wrapper" method="post" role="form" validate="">
+                        <div class="form-group clearfix">
+                            <label>First Name</label>
+                            <input type="text" id="name" name="firstname" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Last Name</label>
+                            <input type="text" id="name" name="lastname" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Phone Number</label>
+                            <input type="text" id="name" name="phone" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Email</label>
+                            <input type="email" name="email" id="user-email" required="">
+                        </div>
+
+                        <div class="form-group clearfix">
+                            <label>Message</label>
+                            <textarea name="message" id="message" required="" style="min-height: 90px;"></textarea>
+                        </div>
+                        <div class="form-group clearfix">
+                            <input type="submit" value="Send" class="btn btn-primary leave-message-btn">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+         </div>
+    </div>
+        """)))}),format.raw/*215.10*/("""
+"""),format.raw/*216.1*/("""<script>
         var canvas = document.getElementById("myCanvas");
         var context = canvas.getContext('2d');
         var imageObj = new Image();
 
-        imageObj.onload = function() """),format.raw/*178.38*/("""{"""),format.raw/*178.39*/("""
-            """),format.raw/*179.13*/("""context.drawImage(imageObj, 30, 60);
-        """),format.raw/*180.9*/("""}"""),format.raw/*180.10*/(""";
+        imageObj.onload = function() """),format.raw/*221.38*/("""{"""),format.raw/*221.39*/("""
+            """),format.raw/*222.13*/("""context.drawImage(imageObj, 30, 60);
+        """),format.raw/*223.9*/("""}"""),format.raw/*223.10*/(""";
 
-        imageObj.src = """"),_display_(/*182.26*/routes/*182.32*/.Assets.versioned("images/services/procedure/img1.png")),format.raw/*182.87*/("""";
-        $(document).ready(function()"""),format.raw/*183.37*/("""{"""),format.raw/*183.38*/("""
+        imageObj.src = """"),_display_(/*225.26*/routes/*225.32*/.Assets.versioned("images/services/procedure/img1.png")),format.raw/*225.87*/("""";
+        $(document).ready(function()"""),format.raw/*226.37*/("""{"""),format.raw/*226.38*/("""
 
-            """),format.raw/*185.13*/("""$('#change').click(function()"""),format.raw/*185.42*/("""{"""),format.raw/*185.43*/("""
-                """),format.raw/*186.17*/("""var a = $('#takeinput').val();
+            """),format.raw/*228.13*/("""$('#change').click(function()"""),format.raw/*228.42*/("""{"""),format.raw/*228.43*/("""
+                """),format.raw/*229.17*/("""var a = $('#takeinput').val();
                 console.log("a:== " +a);
                 $('p').text(a);
-            """),format.raw/*189.13*/("""}"""),format.raw/*189.14*/(""");
-        """),format.raw/*190.9*/("""}"""),format.raw/*190.10*/(""");
+            """),format.raw/*232.13*/("""}"""),format.raw/*232.14*/(""");
+        """),format.raw/*233.9*/("""}"""),format.raw/*233.10*/(""");
 </script>"""))
       }
     }
@@ -232,11 +275,11 @@ Seq[Any](format.raw/*1.19*/("""
 object services extends services_Scope0.services
               /*
                   -- GENERATED --
-                  DATE: Tue Nov 22 12:45:47 IST 2016
-                  SOURCE: /home/ashu/Documents/projects/anaraconsultant/app/views/services.scala.html
-                  HASH: 67dc286b3b6305125c79889d7fdc7a79f3b22cde
-                  MATRIX: 533->1|645->18|672->20|684->25|721->54|760->56|791->61|3010->2286|3055->2303|3328->2589|3373->2606|10498->9699|10527->9700|10744->9888|10774->9889|10816->9902|10889->9947|10919->9948|10975->9976|10991->9982|11068->10037|11136->10076|11166->10077|11209->10091|11267->10120|11297->10121|11343->10138|11488->10254|11518->10255|11557->10266|11587->10267
-                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|60->36|61->37|66->42|67->43|196->172|197->173|202->178|202->178|203->179|204->180|204->180|206->182|206->182|206->182|207->183|207->183|209->185|209->185|209->185|210->186|213->189|213->189|214->190|214->190
+                  DATE: Wed Dec 07 12:08:58 IST 2016
+                  SOURCE: /home/ashu/Documents/anaraconsultant/app/views/services.scala.html
+                  HASH: 7fdfc3e1cb345aacdf47d109c71d1a3646a1bf91
+                  MATRIX: 533->1|645->18|672->20|684->25|721->54|760->56|791->61|3007->2283|3052->2300|3325->2586|3370->2603|12793->11996|12822->11997|13039->12185|13069->12186|13111->12199|13184->12244|13214->12245|13270->12273|13286->12279|13363->12334|13431->12373|13461->12374|13504->12388|13562->12417|13592->12418|13638->12435|13783->12551|13813->12552|13852->12563|13882->12564
+                  LINES: 20->1|25->1|26->2|26->2|26->2|26->2|27->3|60->36|61->37|66->42|67->43|239->215|240->216|245->221|245->221|246->222|247->223|247->223|249->225|249->225|249->225|250->226|250->226|252->228|252->228|252->228|253->229|256->232|256->232|257->233|257->233
                   -- GENERATED --
               */
           
